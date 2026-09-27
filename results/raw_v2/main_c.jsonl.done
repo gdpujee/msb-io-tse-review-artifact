@@ -1,0 +1,24 @@
+{
+  "out": "../results/raw_v2/main_c.jsonl",
+  "rows": 1024,
+  "instances": 128,
+  "methods": [
+    "bm25",
+    "bm25_path",
+    "anchor_path_only",
+    "anchor_symbol_only",
+    "bm25_anchor",
+    "bm25_graph",
+    "bm25_anchor_graph",
+    "anchor_path_graph"
+  ],
+  "langs": [
+    "c"
+  ],
+  "cap": 0,
+  "exclude_tests": true,
+  "query_protocol": "issue_only_v2",
+  "candidate_protocol": "component_aware_test_filter_v6",
+  "metric_protocol": "full_precision_metrics_v1",
+  "gold_protocol": "non_test_fix_files_unconditional_any_v2"
+}

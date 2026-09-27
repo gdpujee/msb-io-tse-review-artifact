@@ -1,0 +1,328 @@
+[
+  {
+    "category": "path cue helps",
+    "instance_id": "Hannah-Sten__TeXiFy-IDEA-2935",
+    "lang": "kotlin",
+    "repo": "TeXiFy-IDEA",
+    "gold_files": [
+      "src/nl/hannahsten/texifyidea/inspections/latex/codematurity/LatexPrimitiveStyleInspection.kt",
+      "src/nl/hannahsten/texifyidea/util/magic/CommandMagic.kt"
+    ],
+    "gold_path_cues": [
+      "src/nl/hannahsten/texifyidea/inspections/latex/codematurity/LatexPrimitiveStyleInspection.kt"
+    ],
+    "query_excerpt": "\"Convert to LaTeX alternative\" command unexpectedly rearranged text and caused a NullPointerException ### Type of JetBrains IDE (IntelliJ, PyCharm, etc.) and version PyCharm 2022.3.1 (build PY-223.8214.51) ### Operating System Windows 11 10.0 (amd64) ### TeXiFy IDEA version 0.7.25.1 ### Description I used the command to convert primitive \\bf to \\textbf. It produced a NullPointerException with the ",
+    "bm25_top3": [
+      "src/nl/hannahsten/texifyidea/action/library/SyncLibraryAction.kt",
+      "src/nl/hannahsten/texifyidea/action/library/AddLibraryAction.kt",
+      "src/nl/hannahsten/texifyidea/inspections/latex/probablebugs/packages/LatexPackageNotInstalledInspection.kt"
+    ],
+    "path_top3": [
+      "src/nl/hannahsten/texifyidea/inspections/latex/codematurity/LatexPrimitiveStyleInspection.kt",
+      "src/nl/hannahsten/texifyidea/action/library/SyncLibraryAction.kt",
+      "src/nl/hannahsten/texifyidea/action/library/AddLibraryAction.kt"
+    ],
+    "graph_top3": [
+      "src/nl/hannahsten/texifyidea/action/library/SyncLibraryAction.kt",
+      "src/nl/hannahsten/texifyidea/action/library/AddLibraryAction.kt",
+      "src/nl/hannahsten/texifyidea/inspections/latex/probablebugs/packages/LatexPackageNotInstalledInspection.kt"
+    ]
+  },
+  {
+    "category": "path cue helps",
+    "instance_id": "ankidroid__Anki-Android-19661",
+    "lang": "kotlin",
+    "repo": "Anki-Android",
+    "gold_files": [
+      "AnkiDroid/src/main/java/com/ichi2/anki/AnkiDroidApp.kt"
+    ],
+    "gold_path_cues": [
+      "AnkiDroid/src/main/java/com/ichi2/anki/AnkiDroidApp.kt"
+    ],
+    "query_excerpt": "[BUG]: startup crash - getExternalFilesDir unexpectedly returned null. Media state: removed 2.23.0beta3 * `getExternalFilesDir` is null * Collection path is set * `CollectionHelper.initializeAnkiDroidDirectory` throws `StorageAccessException` https://ankidroid.org/acra/app/1/bug/362178/report/968c2402-f20d-4984-b5b5-3781a4feb340 ``` java.lang.RuntimeException: Unable to create application com.ichi",
+    "bm25_top3": [
+      "AnkiDroid/src/main/java/com/ichi2/anki/CollectionHelper.kt",
+      "AnkiDroid/src/main/java/com/ichi2/anki/AnkiDroidApp.kt",
+      "AnkiDroid/src/main/java/com/ichi2/anki/servicelayer/ScopedStorageService.kt"
+    ],
+    "path_top3": [
+      "AnkiDroid/src/main/java/com/ichi2/anki/AnkiDroidApp.kt",
+      "AnkiDroid/src/main/java/com/ichi2/anki/CollectionHelper.kt",
+      "AnkiDroid/src/main/java/com/ichi2/anki/exception/SystemStorageException.kt"
+    ],
+    "graph_top3": [
+      "AnkiDroid/src/main/java/com/ichi2/anki/CollectionHelper.kt",
+      "AnkiDroid/src/main/java/com/ichi2/anki/AnkiDroidApp.kt",
+      "AnkiDroid/src/main/java/com/ichi2/anki/servicelayer/ScopedStorageService.kt"
+    ]
+  },
+  {
+    "category": "path cue helps",
+    "instance_id": "apache__dubbo-7041",
+    "lang": "java",
+    "repo": "dubbo",
+    "gold_files": [
+      "dubbo-common/src/main/java/org/apache/dubbo/common/utils/ReflectUtils.java"
+    ],
+    "gold_path_cues": [
+      "dubbo-common/src/main/java/org/apache/dubbo/common/utils/ReflectUtils.java"
+    ],
+    "query_excerpt": "Unable to refer interface with CompletableFuture<T> ### Environment * Dubbo version: 2.7.8 * Java version: jdk 11 ### Steps to reproduce this issue 1. Define a interface like this: ``` java public interface TypeClass<T> { CompletableFuture<T> getGenericFuture(); } ``` 2. Refer or export it 3. Detail log ``` java.lang.ClassCastException: class sun.reflect.generics.reflectiveObjects.TypeVariableImpl",
+    "bm25_top3": [
+      "dubbo-rpc/dubbo-rpc-api/src/main/java/org/apache/dubbo/rpc/filter/GenericImplFilter.java",
+      "dubbo-common/src/main/java/org/apache/dubbo/common/beanutil/JavaBeanSerializeUtil.java",
+      "dubbo-rpc/dubbo-rpc-xml/src/main/java/org/apache/dubbo/xml/rpc/protocol/xmlrpc/XmlRpcProxyFactoryBean.java"
+    ],
+    "path_top3": [
+      "dubbo-common/src/main/java/org/apache/dubbo/common/utils/ReflectUtils.java",
+      "dubbo-common/src/main/java/org/apache/dubbo/config/annotation/Method.java",
+      "dubbo-rpc/dubbo-rpc-api/src/main/java/org/apache/dubbo/rpc/filter/GenericImplFilter.java"
+    ],
+    "graph_top3": [
+      "dubbo-common/src/main/java/org/apache/dubbo/common/beanutil/JavaBeanSerializeUtil.java",
+      "dubbo-common/src/main/java/org/apache/dubbo/common/utils/ReflectUtils.java",
+      "dubbo-common/src/main/java/org/apache/dubbo/common/utils/PojoUtils.java"
+    ]
+  },
+  {
+    "category": "non-gold path cue misleads",
+    "instance_id": "catchorg__Catch2-2288",
+    "lang": "cpp",
+    "repo": "Catch2",
+    "gold_files": [
+      "include/internal/catch_approx.h"
+    ],
+    "gold_path_cues": [],
+    "query_excerpt": "Approx::operator() not const-correct **Describe the bug** The `Approx` type has an overload of `template <typename T, ...SFINAE...> Approx operator()(T const&)` which (correct me if I'm wrong) is meant to be a factory function for instances that have the same epsilon, margin, and scale, but that use the passed value. AFAICT this should be const on the instance, but it's not. Minimum failing exampl",
+    "bm25_top3": [
+      "include/internal/catch_approx.h",
+      "include/internal/catch_approx.cpp",
+      "include/internal/catch_matchers_vector.h"
+    ],
+    "path_top3": [
+      "single_include/catch2/catch.hpp",
+      "include/catch.hpp",
+      "include/internal/catch_approx.h"
+    ],
+    "graph_top3": [
+      "include/internal/catch_approx.h",
+      "single_include/catch2/catch.hpp",
+      "include/internal/catch_approx.cpp"
+    ]
+  },
+  {
+    "category": "non-gold path cue misleads",
+    "instance_id": "clap-rs__clap-2773",
+    "lang": "rust",
+    "repo": "clap",
+    "gold_files": [
+      "src/output/help.rs"
+    ],
+    "gold_path_cues": [],
+    "query_excerpt": "Very large display_order values cause a crash while displaying help ### Please complete the following tasks - [X] I have searched the [discussions](https://github.com/clap-rs/clap/discussions) - [X] I have searched the existing issues ### Rust Version rustc 1.55.0 (c8dfcfe04 2021-09-06) ### Clap Version 3.0.0-beta.4 ### Minimal reproducible code ```rust fn main() { clap::App::new(\"test\") .subcomma",
+    "bm25_top3": [
+      "src/output/help.rs",
+      "src/build/app/settings.rs",
+      "src/output/usage.rs"
+    ],
+    "path_top3": [
+      "clap_up/src/lib.rs",
+      "clap_generate/src/lib.rs",
+      "src/lib.rs"
+    ],
+    "graph_top3": [
+      "src/parse/validator.rs",
+      "src/parse/errors.rs",
+      "clap_derive/src/parse.rs"
+    ]
+  },
+  {
+    "category": "non-gold path cue misleads",
+    "instance_id": "clap-rs__clap-3311",
+    "lang": "rust",
+    "repo": "clap",
+    "gold_files": [
+      "src/build/app/mod.rs"
+    ],
+    "gold_path_cues": [],
+    "query_excerpt": "debug_assert fails with PropagateVersion in 3.0.8/3.0.9, but get_matches does not ### Please complete the following tasks - [X] I have searched the [discussions](https://github.com/clap-rs/clap/discussions) - [X] I have searched the existing issues ### Rust Version rustc 1.57.0 (f1edd0429 2021-11-29) ### Clap Version 3.0.9 ### Minimal reproducible code ```rust fn cli() -> clap::App<'static> { clap",
+    "bm25_top3": [
+      "src/build/app/mod.rs",
+      "src/build/app/settings.rs",
+      "src/build/app/debug_asserts.rs"
+    ],
+    "path_top3": [
+      "src/build/app/debug_asserts.rs",
+      "src/build/arg/debug_asserts.rs",
+      "src/build/app/mod.rs"
+    ],
+    "graph_top3": [
+      "src/build/app/debug_asserts.rs",
+      "src/build/app/mod.rs",
+      "src/build/arg/mod.rs"
+    ]
+  },
+  {
+    "category": "graph expansion hurts",
+    "instance_id": "BurntSushi__ripgrep-1367",
+    "lang": "rust",
+    "repo": "ripgrep",
+    "gold_files": [
+      "grep-regex/src/literal.rs"
+    ],
+    "gold_path_cues": [
+      "grep-regex/src/literal.rs"
+    ],
+    "query_excerpt": "match bug ``` $ rg --version ripgrep 11.0.1 (rev 7bf7ceb5d3) -SIMD -AVX (compiled) +SIMD +AVX (runtime) ``` This matches: ``` $ echo 'CCAGCTACTCGGGAGGCTGAGGCTGGAGGATCGCTTGAGTCCAGGAGTTC' | egrep 'CCAGCTACTCGGGAGGCTGAGGCTGGAGGATCGCTTGAGTCCAGGAG[ATCG]{2}C' CCAGCTACTCGGGAGGCTGAGGCTGGAGGATCGCTTGAGTCCAGGAGTTC ``` But this doesn't: ``` $ echo 'CCAGCTACTCGGGAGGCTGAGGCTGGAGGATCGCTTGAGTCCAGGAGTTC' | rg 'CCA",
+    "bm25_top3": [
+      "grep-regex/src/literal.rs",
+      "src/app.rs",
+      "grep-regex/src/matcher.rs"
+    ],
+    "path_top3": [
+      "grep-regex/src/literal.rs",
+      "grep-regex/src/matcher.rs",
+      "grep-pcre2/src/matcher.rs"
+    ],
+    "graph_top3": [
+      "src/app.rs",
+      "src/args.rs",
+      "globset/src/lib.rs"
+    ]
+  },
+  {
+    "category": "graph expansion hurts",
+    "instance_id": "alibaba__fastjson2-2097",
+    "lang": "java",
+    "repo": "fastjson2",
+    "gold_files": [
+      "core/src/main/java/com/alibaba/fastjson2/reader/ObjectReaderImplList.java"
+    ],
+    "gold_path_cues": [],
+    "query_excerpt": "[BUG] reference in java.util.Arrays$ArrayList(CLASS_ARRAYS_LIST) deserialization wrong ### \u95ee\u9898\u63cf\u8ff0 \u5f53\u53cd\u5e8f\u5217\u5316\u5bf9\u8c61\u4e3a java.util.Arrays$ArrayList \u7c7b\u578b (Kotlin \u4e2d\u7684 listOf(...) \u7b49\u540c)\uff0c\u4e14\u5217\u8868\u4e2d\u5b58\u5728 reference \u5143\u7d20\u7684\u60c5\u51b5\u4e0b, \u8be5\u5bf9\u8c61\u53cd\u5e8f\u5217\u5316\u65f6\u5176\u5217\u8868\u4e2d\u7684\u6240\u6709 reference \u5143\u7d20\u90fd\u4e3a null ### \u73af\u5883\u4fe1\u606f - OS\u4fe1\u606f\uff1a [e.g.\uff1aCentOS 8.4.2105 4Core 3.10GHz 16 GB] - JDK\u4fe1\u606f\uff1a [e.g.\uff1aOpenjdk 1.8.0_312] - \u7248\u672c\u4fe1\u606f\uff1aFastjson2 2.0.43 ### \u91cd\u73b0\u6b65\u9aa4 https://github.com/xtyuns/sample-e202312131-fastjs",
+    "bm25_top3": [
+      "core/src/main/java/com/alibaba/fastjson2/reader/ObjectReaderImplList.java",
+      "fastjson1-compatible/src/main/java/com/alibaba/fastjson/TypeReference.java",
+      "fastjson1-compatible/src/main/java/com/alibaba/fastjson/support/jaxrs/FastJsonProvider.java"
+    ],
+    "path_top3": [
+      "core/src/main/java/com/alibaba/fastjson2/reader/ObjectReaderImplList.java",
+      "fastjson1-compatible/src/main/java/com/alibaba/fastjson/TypeReference.java",
+      "fastjson1-compatible/src/main/java/com/alibaba/fastjson/support/jaxrs/FastJsonProvider.java"
+    ],
+    "graph_top3": [
+      "fastjson1-compatible/src/main/java/com/alibaba/fastjson/support/jaxrs/FastJsonProvider.java",
+      "core/src/main/java/com/alibaba/fastjson2/JSONReader.java",
+      "core/src/main/java/com/alibaba/fastjson2/reader/ObjectReaderImplList.java"
+    ]
+  },
+  {
+    "category": "graph expansion hurts",
+    "instance_id": "anuraghazra__github-readme-stats-1041",
+    "lang": "js",
+    "repo": "github-readme-stats",
+    "gold_files": [
+      "src/cards/wakatime-card.js"
+    ],
+    "gold_path_cues": [],
+    "query_excerpt": "[Bug] wakatime langs_count is invalid when layout=compact **Describe the bug** wakatime langs_count is invalid when layout=compact, **it does work when i don't make layout=compact.** As follows, i make langs_count=6 and layout=compact, but it's invalid. **Screenshots** ![image](https://user-images.githubusercontent.com/41513919/116766616-fe4be800-aa5d-11eb-804d-bb51376a1d1a.png)",
+    "bm25_top3": [
+      "src/cards/wakatime-card.js",
+      "src/cards/top-languages-card.js",
+      "api/wakatime.js"
+    ],
+    "path_top3": [
+      "src/cards/wakatime-card.js",
+      "src/cards/top-languages-card.js",
+      "api/wakatime.js"
+    ],
+    "graph_top3": [
+      "src/common/utils.js",
+      "api/top-langs.js",
+      "src/fetchers/stats-fetcher.js"
+    ]
+  },
+  {
+    "category": "graph expansion helps",
+    "instance_id": "BurntSushi__ripgrep-723",
+    "lang": "rust",
+    "repo": "ripgrep",
+    "gold_files": [
+      "complete/_rg",
+      "doc/rg.1",
+      "doc/rg.1.md",
+      "src/app.rs",
+      "src/args.rs",
+      "src/printer.rs"
+    ],
+    "gold_path_cues": [],
+    "query_excerpt": "Fixed width line numbers It would be nice to be able to see the indentation level of searched text line up. One way to do this would be to have fixed width line numbers in search results. This could be accomplished through an option flag and left-padding with either spaces or zeroes when the flag is active. As this is primarily of interest for matches within a file, only the matches within a file ",
+    "bm25_top3": [
+      "globset/src/glob.rs",
+      "src/app.rs",
+      "src/args.rs"
+    ],
+    "path_top3": [
+      "globset/src/glob.rs",
+      "src/app.rs",
+      "src/args.rs"
+    ],
+    "graph_top3": [
+      "src/args.rs",
+      "ignore/src/types.rs",
+      "src/search_stream.rs"
+    ]
+  },
+  {
+    "category": "graph expansion helps",
+    "instance_id": "BurntSushi__ripgrep-727",
+    "lang": "rust",
+    "repo": "ripgrep",
+    "gold_files": [
+      "src/args.rs"
+    ],
+    "gold_path_cues": [],
+    "query_excerpt": "Suggest --fixed-strings on invalid regexps ``` $ rg \"foo(\" Error parsing regex near 'foo(' at character offset 3: Unclosed parenthesis. ``` I think ripgrep should suggest the `--fixed-strings` argument if there's a regex syntax error.",
+    "bm25_top3": [
+      "src/app.rs",
+      "src/args.rs",
+      "globset/src/lib.rs"
+    ],
+    "path_top3": [
+      "src/app.rs",
+      "src/args.rs",
+      "globset/src/lib.rs"
+    ],
+    "graph_top3": [
+      "src/args.rs",
+      "ignore/src/dir.rs",
+      "src/app.rs"
+    ]
+  },
+  {
+    "category": "graph expansion helps",
+    "instance_id": "alibaba__fastjson2-2559",
+    "lang": "java",
+    "repo": "fastjson2",
+    "gold_files": [
+      "core/src/main/java/com/alibaba/fastjson2/util/TypeUtils.java"
+    ],
+    "gold_path_cues": [],
+    "query_excerpt": "[FEATURE]org.bson.types.Decimal128\u8f6cDouble\u65f6\u4f1a\u62a5\u9519 ### \u8bf7\u63cf\u8ff0\u60a8\u7684\u9700\u6c42\u6216\u8005\u6539\u8fdb\u5efa\u8bae \u80cc\u666f\u5982\u4e0b\uff1a 1\u3001\u6211\u4eec\u4f1a\u628a`java`\u5bf9\u8c61\u901a\u8fc7`fastjson`\u8f6c\u4e3a`String`\u7136\u540e\u901a\u8fc7**MQ** \u53d1\u9001\u51fa\u6765\uff0c\u5728\u63a5\u6536\u7aef\u4f1a\u518d\u901a\u8fc7`fastjson`\u628a`String`\u8f6c\u5316`JSONObject` ``` public void handleChannel(String data) throws PropertyMapperException { JSONObject jsonData = JSON.parseObject(data); ViewMO inputMO = jsonData.toJavaObject(ViewMO.class); ImportBatchDetailDO task = new ImportBatchDetailDO(); task.s",
+    "bm25_top3": [
+      "fastjson1-compatible/src/main/java/com/alibaba/fastjson/JSONObject.java",
+      "core/src/main/java/com/alibaba/fastjson2/util/TypeUtils.java",
+      "core/src/main/java/com/alibaba/fastjson2/support/LambdaMiscCodec.java"
+    ],
+    "path_top3": [
+      "fastjson1-compatible/src/main/java/com/alibaba/fastjson/JSONObject.java",
+      "core/src/main/java/com/alibaba/fastjson2/util/TypeUtils.java",
+      "core/src/main/java/com/alibaba/fastjson2/support/LambdaMiscCodec.java"
+    ],
+    "graph_top3": [
+      "core/src/main/java/com/alibaba/fastjson2/util/TypeUtils.java",
+      "fastjson1-compatible/src/main/java/com/alibaba/fastjson/JSONArray.java",
+      "fastjson1-compatible/src/main/java/com/alibaba/fastjson/util/TypeUtils.java"
+    ]
+  }
+]

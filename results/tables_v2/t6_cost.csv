@@ -1,0 +1,9 @@
+method,n,mean_secs_per_instance,max_secs,api_cost_usd
+anchor_path_graph,1791,0.219,2.09,0.0
+anchor_path_only,1791,0.224,2.48,0.0
+anchor_symbol_only,1791,0.225,2.62,0.0
+bm25,1791,0.223,2.64,0.0
+bm25_anchor,1791,0.224,2.08,0.0
+bm25_anchor_graph,1791,0.226,2.64,0.0
+bm25_graph,1791,0.438,6.63,0.0
+bm25_path,1791,0.227,3.29,0.0

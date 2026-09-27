@@ -1,0 +1,36 @@
+{
+  "purpose": "Treatment arm of the query-provenance contrast. Rows are produced by the released pipeline with the superseded query rule and are NOT Protocol V2 results; they must never enter a V2 aggregate.",
+  "treatment_protocol": "legacy_mixed_v1",
+  "control_protocol": "issue_only_v2",
+  "treatment_query_rule": "audit_query_leakage.legacy_query",
+  "control_query_rule": "dataset.build_query",
+  "held_fixed": [
+    "repository index",
+    "candidate protocol",
+    "method configurations",
+    "metric implementation",
+    "gold definitions"
+  ],
+  "prereg": "notes/leak_contrast_prereg.md",
+  "langs": [
+    "c",
+    "cpp",
+    "go",
+    "java",
+    "js",
+    "kotlin",
+    "python",
+    "rust",
+    "ts"
+  ],
+  "methods": [
+    "bm25",
+    "bm25_path",
+    "anchor_path_only",
+    "anchor_symbol_only",
+    "bm25_anchor",
+    "bm25_graph",
+    "bm25_anchor_graph",
+    "anchor_path_graph"
+  ]
+}

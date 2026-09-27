@@ -1,0 +1,372 @@
+{
+  "protocols": {
+    "control": "issue_only_v2",
+    "treatment": "legacy_mixed_v1"
+  },
+  "rows": {
+    "control": 1791,
+    "treatment": 1791
+  },
+  "configuration": {
+    "method": "bm25_swerank_rerank50",
+    "model_id": "Salesforce/SweRankEmbed-Small",
+    "model_revision": "745d2a06103a66d3cfa600aa52fc0d3523010daa",
+    "remote_code_revision": "92d97331f1f4b6a366c1f161354b9f3390cc219f",
+    "candidate_k": 50,
+    "max_seq_length": 512,
+    "candidate_protocol": "component_aware_test_filter_v6",
+    "metric_protocol": "full_precision_metrics_v1"
+  },
+  "comparisons": [
+    {
+      "group": null,
+      "metric": "hit@1",
+      "reference": "control",
+      "method": "treatment",
+      "n_paired": 1791,
+      "n_clusters": 57,
+      "n_test_informative": 253,
+      "test": "exact_mcnemar",
+      "n_cluster_informative": 36,
+      "mean_ref": 0.416,
+      "mean_method": 0.4712,
+      "delta": 0.0553,
+      "delta_cluster_bootstrap_95ci": [
+        0.0259,
+        0.0843
+      ],
+      "p_instance": 4.35844478680352e-10,
+      "p_cluster": 0.002129774855218204,
+      "p_cluster_holm": 0.002129774855218204,
+      "rank_biserial": 0.3913,
+      "effect": "medium",
+      "significant": true,
+      "stratum": "all"
+    },
+    {
+      "group": null,
+      "metric": "hit@10",
+      "reference": "control",
+      "method": "treatment",
+      "n_paired": 1791,
+      "n_clusters": 57,
+      "n_test_informative": 129,
+      "test": "exact_mcnemar",
+      "n_cluster_informative": 26,
+      "mean_ref": 0.8068,
+      "mean_method": 0.8532,
+      "delta": 0.0463,
+      "delta_cluster_bootstrap_95ci": [
+        0.0259,
+        0.0774
+      ],
+      "p_instance": 6.260285489771429e-14,
+      "p_cluster": 4.099958181484462e-05,
+      "p_cluster_holm": 4.099958181484462e-05,
+      "rank_biserial": 0.6434,
+      "effect": "large",
+      "significant": true,
+      "stratum": "all"
+    },
+    {
+      "group": null,
+      "metric": "mrr",
+      "reference": "control",
+      "method": "treatment",
+      "n_paired": 1791,
+      "n_clusters": 57,
+      "n_test_informative": 761,
+      "test": "wilcoxon",
+      "n_cluster_informative": 52,
+      "mean_ref": 0.5491,
+      "mean_method": 0.5985,
+      "delta": 0.0494,
+      "delta_cluster_bootstrap_95ci": [
+        0.026,
+        0.0766
+      ],
+      "p_instance": 4.0086419471875354e-16,
+      "p_cluster": 0.000994183956362615,
+      "p_cluster_holm": 0.000994183956362615,
+      "rank_biserial": 0.3403,
+      "effect": "medium",
+      "significant": true,
+      "stratum": "all"
+    },
+    {
+      "group": null,
+      "metric": "ap",
+      "reference": "control",
+      "method": "treatment",
+      "n_paired": 1791,
+      "n_clusters": 57,
+      "n_test_informative": 1039,
+      "test": "wilcoxon",
+      "n_cluster_informative": 53,
+      "mean_ref": 0.4443,
+      "mean_method": 0.4864,
+      "delta": 0.042,
+      "delta_cluster_bootstrap_95ci": [
+        0.0213,
+        0.064
+      ],
+      "p_instance": 3.4402074390139225e-22,
+      "p_cluster": 0.00046304923027993937,
+      "p_cluster_holm": 0.00046304923027993937,
+      "rank_biserial": 0.3469,
+      "effect": "medium",
+      "significant": true,
+      "stratum": "all"
+    },
+    {
+      "group": null,
+      "metric": "hit@1",
+      "reference": "control",
+      "method": "treatment",
+      "n_paired": 1291,
+      "n_clusters": 45,
+      "n_test_informative": 229,
+      "test": "exact_mcnemar",
+      "n_cluster_informative": 31,
+      "mean_ref": 0.4059,
+      "mean_method": 0.4857,
+      "delta": 0.0798,
+      "delta_cluster_bootstrap_95ci": [
+        0.0542,
+        0.1114
+      ],
+      "p_instance": 6.981473285582509e-12,
+      "p_cluster": 0.0009937204737517937,
+      "p_cluster_holm": 0.0009937204737517937,
+      "rank_biserial": 0.4498,
+      "effect": "medium",
+      "significant": true,
+      "stratum": "non_python"
+    },
+    {
+      "group": null,
+      "metric": "hit@10",
+      "reference": "control",
+      "method": "treatment",
+      "n_paired": 1291,
+      "n_clusters": 45,
+      "n_test_informative": 117,
+      "test": "exact_mcnemar",
+      "n_cluster_informative": 23,
+      "mean_ref": 0.7955,
+      "mean_method": 0.8567,
+      "delta": 0.0612,
+      "delta_cluster_bootstrap_95ci": [
+        0.0334,
+        0.099
+      ],
+      "p_instance": 5.139554351717119e-14,
+      "p_cluster": 8.726126784231121e-05,
+      "p_cluster_holm": 8.726126784231121e-05,
+      "rank_biserial": 0.6752,
+      "effect": "large",
+      "significant": true,
+      "stratum": "non_python"
+    },
+    {
+      "group": null,
+      "metric": "mrr",
+      "reference": "control",
+      "method": "treatment",
+      "n_paired": 1291,
+      "n_clusters": 45,
+      "n_test_informative": 644,
+      "test": "wilcoxon",
+      "n_cluster_informative": 41,
+      "mean_ref": 0.5391,
+      "mean_method": 0.6089,
+      "delta": 0.0697,
+      "delta_cluster_bootstrap_95ci": [
+        0.0461,
+        0.1029
+      ],
+      "p_instance": 9.399286973442672e-18,
+      "p_cluster": 0.00027122578240720765,
+      "p_cluster_holm": 0.00027122578240720765,
+      "rank_biserial": 0.3901,
+      "effect": "medium",
+      "significant": true,
+      "stratum": "non_python"
+    },
+    {
+      "group": null,
+      "metric": "ap",
+      "reference": "control",
+      "method": "treatment",
+      "n_paired": 1291,
+      "n_clusters": 45,
+      "n_test_informative": 898,
+      "test": "wilcoxon",
+      "n_cluster_informative": 42,
+      "mean_ref": 0.4028,
+      "mean_method": 0.4625,
+      "delta": 0.0597,
+      "delta_cluster_bootstrap_95ci": [
+        0.0404,
+        0.0867
+      ],
+      "p_instance": 1.2765700059182043e-25,
+      "p_cluster": 6.821798200075767e-05,
+      "p_cluster_holm": 6.821798200075767e-05,
+      "rank_biserial": 0.4031,
+      "effect": "medium",
+      "significant": true,
+      "stratum": "non_python"
+    },
+    {
+      "group": null,
+      "metric": "hit@1",
+      "reference": "control",
+      "method": "treatment",
+      "n_paired": 500,
+      "n_clusters": 12,
+      "n_test_informative": 24,
+      "test": "exact_mcnemar",
+      "n_cluster_informative": 5,
+      "mean_ref": 0.442,
+      "mean_method": 0.434,
+      "delta": -0.008,
+      "delta_cluster_bootstrap_95ci": [
+        -0.0193,
+        0.0086
+      ],
+      "p_instance": 0.5412561893463135,
+      "p_cluster": 0.4375,
+      "p_cluster_holm": 0.4375,
+      "rank_biserial": -0.1667,
+      "effect": "small",
+      "significant": false,
+      "stratum": "python"
+    },
+    {
+      "group": null,
+      "metric": "hit@10",
+      "reference": "control",
+      "method": "treatment",
+      "n_paired": 500,
+      "n_clusters": 12,
+      "n_test_informative": 12,
+      "test": "exact_mcnemar",
+      "n_cluster_informative": 3,
+      "mean_ref": 0.836,
+      "mean_method": 0.844,
+      "delta": 0.008,
+      "delta_cluster_bootstrap_95ci": [
+        0.0,
+        0.0176
+      ],
+      "p_instance": 0.3876953125,
+      "p_cluster": 0.25,
+      "p_cluster_holm": 0.25,
+      "rank_biserial": 0.3333,
+      "effect": "medium",
+      "significant": false,
+      "stratum": "python"
+    },
+    {
+      "group": null,
+      "metric": "mrr",
+      "reference": "control",
+      "method": "treatment",
+      "n_paired": 500,
+      "n_clusters": 12,
+      "n_test_informative": 117,
+      "test": "wilcoxon",
+      "n_cluster_informative": 11,
+      "mean_ref": 0.575,
+      "mean_method": 0.5718,
+      "delta": -0.0032,
+      "delta_cluster_bootstrap_95ci": [
+        -0.0107,
+        0.0068
+      ],
+      "p_instance": 0.947923167977831,
+      "p_cluster": 0.5771484375,
+      "p_cluster_holm": 0.5771484375,
+      "rank_biserial": 0.007,
+      "effect": "negligible",
+      "significant": false,
+      "stratum": "python"
+    },
+    {
+      "group": null,
+      "metric": "ap",
+      "reference": "control",
+      "method": "treatment",
+      "n_paired": 500,
+      "n_clusters": 12,
+      "n_test_informative": 141,
+      "test": "wilcoxon",
+      "n_cluster_informative": 11,
+      "mean_ref": 0.5517,
+      "mean_method": 0.548,
+      "delta": -0.0037,
+      "delta_cluster_bootstrap_95ci": [
+        -0.0099,
+        0.0041
+      ],
+      "p_instance": 0.6603227063862055,
+      "p_cluster": 0.240234375,
+      "p_cluster_holm": 0.240234375,
+      "rank_biserial": -0.0427,
+      "effect": "negligible",
+      "significant": false,
+      "stratum": "python"
+    }
+  ],
+  "difference_in_differences": [
+    {
+      "stratum": "all",
+      "n_paired": 1791,
+      "n_clusters": 57,
+      "mean_did": 0.0408,
+      "ci": [
+        0.008,
+        0.0728
+      ],
+      "p": 0.00017706785442437914,
+      "test": "wilcoxon",
+      "n_test_informative": 340,
+      "rank_biserial": 0.207,
+      "n_positive": 204,
+      "n_negative": 136
+    },
+    {
+      "stratum": "non_python",
+      "n_paired": 1291,
+      "n_clusters": 45,
+      "mean_did": 0.0581,
+      "ci": [
+        0.0172,
+        0.0974
+      ],
+      "p": 6.308780285126377e-05,
+      "test": "wilcoxon",
+      "n_test_informative": 315,
+      "rank_biserial": 0.2295,
+      "n_positive": 193,
+      "n_negative": 122
+    },
+    {
+      "stratum": "python",
+      "n_paired": 500,
+      "n_clusters": 12,
+      "mean_did": -0.004,
+      "ci": [
+        -0.0166,
+        0.0154
+      ],
+      "p": 0.7054569861112734,
+      "test": "wilcoxon",
+      "n_test_informative": 25,
+      "rank_biserial": -0.0769,
+      "n_positive": 11,
+      "n_negative": 14
+    }
+  ]
+}

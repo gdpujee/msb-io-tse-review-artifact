@@ -1,0 +1,12 @@
+{
+  "figures": [
+    "results/figures/fig1_provenance.png",
+    "results/figures/fig2_heatmap_hit1.png",
+    "results/figures/fig3_cue_strata.png",
+    "results/figures/fig4_reachability.png",
+    "results/figures/fig5_leak_cost.png",
+    "results/figures/fig6_rank_shift.png"
+  ],
+  "rows": 14328,
+  "gate": "result_integrity VERIFIED"
+}

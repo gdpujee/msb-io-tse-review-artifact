@@ -1,0 +1,332 @@
+{
+  "status": "VERIFIED",
+  "candidate_protocol": "component_aware_test_filter_v6",
+  "index_files_scanned": 1791,
+  "positive_cases": [
+    "app/src/androidTest/java/FooTest.java",
+    "module/src/integration-test/java/Foo.java",
+    "analyzer/src/funTest/kotlin/AnalyzerFunTest.kt",
+    "crates/clap_test/src/lib.rs",
+    "src/widget.spec.tsx",
+    "grep-searcher/src/testutil.rs",
+    "programs/bench.c",
+    "interop/test_utils.go",
+    "projects/XCode/OCTest/OCTest/TestObj.h",
+    "astropy/nddata/_testing.py"
+  ],
+  "negative_cases": [
+    "src/main/java/Latest.java",
+    "src/contest/results.py",
+    "astropy/coordinates/spectral_coordinate.py",
+    "src/specialized/specification.py",
+    "detekt-core/src/main/ProcessingSpecSettingsBridge.kt",
+    "include/internal/catch_test_spec.cpp",
+    "src/_pytest/unittest.py"
+  ],
+  "positive_failures": [],
+  "negative_failures": [],
+  "all_test_candidate_fallbacks": [],
+  "candidate_differences_from_legacy": {
+    "newly_excluded": {
+      "c": {
+        "occurrences": 1439,
+        "unique_paths": 49,
+        "samples": [
+          "contrib/linux-kernel/xxhash_test.c",
+          "contrib/linux-kernel/zstd_compress_test.c",
+          "contrib/linux-kernel/zstd_decompress_test.c",
+          "contrib/seqBench/seqBench.c",
+          "lib/gtest/gtest/gtest-death-test.h",
+          "lib/gtest/gtest/gtest-message.h",
+          "lib/gtest/gtest/gtest-param-test.h",
+          "lib/gtest/gtest/gtest-printers.h",
+          "lib/gtest/gtest/gtest-spi.h",
+          "lib/gtest/gtest/gtest-test-part.h",
+          "lib/gtest/gtest/gtest-typed-test.h",
+          "lib/gtest/gtest/gtest.h",
+          "lib/gtest/gtest/gtest_pred_impl.h",
+          "lib/gtest/gtest/gtest_prod.h",
+          "lib/gtest/gtest/internal/gtest-death-test-internal.h",
+          "lib/gtest/gtest/internal/gtest-filepath.h",
+          "lib/gtest/gtest/internal/gtest-internal.h",
+          "lib/gtest/gtest/internal/gtest-linked_ptr.h",
+          "lib/gtest/gtest/internal/gtest-param-util-generated.h",
+          "src/jq_test.c"
+        ]
+      },
+      "cpp": {
+        "occurrences": 340,
+        "unique_paths": 60,
+        "samples": [
+          "projects/ExtraTests/X01-PrefixedMacros.cpp",
+          "projects/ExtraTests/X02-DisabledMacros.cpp",
+          "projects/ExtraTests/X03-DisabledExceptions-DefaultHandler.cpp",
+          "projects/ExtraTests/X04-DisabledExceptions-CustomHandler.cpp",
+          "projects/ExtraTests/X10-FallbackStringifier.cpp",
+          "projects/ExtraTests/X11-DisableStringification.cpp",
+          "projects/SelfTest/CompileTimePerfTests/10.tests.cpp",
+          "projects/SelfTest/CompileTimePerfTests/100.tests.cpp",
+          "projects/SelfTest/CompileTimePerfTests/All.tests.cpp",
+          "projects/SelfTest/IntrospectiveTests/CmdLine.tests.cpp",
+          "projects/SelfTest/IntrospectiveTests/GeneratorsImpl.tests.cpp",
+          "projects/SelfTest/IntrospectiveTests/PartTracker.tests.cpp",
+          "projects/SelfTest/IntrospectiveTests/String.tests.cpp",
+          "projects/SelfTest/IntrospectiveTests/TagAlias.tests.cpp",
+          "projects/SelfTest/IntrospectiveTests/Xml.tests.cpp",
+          "projects/SelfTest/SurrogateCpps/catch_console_colour.cpp",
+          "projects/SelfTest/SurrogateCpps/catch_debugger.cpp",
+          "projects/SelfTest/SurrogateCpps/catch_interfaces_reporter.cpp",
+          "projects/SelfTest/SurrogateCpps/catch_option.cpp",
+          "projects/SelfTest/SurrogateCpps/catch_stream.cpp"
+        ]
+      },
+      "go": {
+        "occurrences": 70845,
+        "unique_paths": 840,
+        "samples": [
+          "acceptance/acceptance_test.go",
+          "api/client_test.go",
+          "api/export_pr_test.go",
+          "api/http_client_test.go",
+          "api/pull_request_test.go",
+          "api/queries_pr_test.go",
+          "api/queries_projects_v2_test.go",
+          "api/queries_repo_test.go",
+          "api/query_builder_test.go",
+          "api/reaction_groups_test.go",
+          "cmd/gen-docs/main_test.go",
+          "context/remote_test.go",
+          "git/client_test.go",
+          "git/url_test.go",
+          "internal/authflow/flow_test.go",
+          "internal/codespaces/api/api_test.go",
+          "internal/codespaces/connection/connection_test.go",
+          "internal/codespaces/portforwarder/port_forwarder_test.go",
+          "internal/codespaces/rpc/invoker_test.go",
+          "internal/codespaces/ssh_test.go"
+        ]
+      },
+      "java": {
+        "occurrences": 389,
+        "unique_paths": 83,
+        "samples": [
+          "android-test/app/src/androidTest/java/com/alibaba/fastjson2/android/Compatible1xTest.java",
+          "android-test/app/src/androidTest/java/com/alibaba/fastjson2/android/EishayTest.java",
+          "android-test/app/src/androidTest/java/com/alibaba/fastjson2/android/Issue715.java",
+          "android-test/app/src/androidTest/java/com/alibaba/fastjson2/android/JSONTest.java",
+          "android-test/app/src/androidTest/java/com/alibaba/fastjson2/android/UnsafeTest.java",
+          "android-test/app/src/androidTest/java/com/alibaba/fastjson2/android/UnsafeUtilsTest.java",
+          "android-test/app/src/androidTest/java/com/alibaba/fastjson2/android/ValueTest.java",
+          "android-test/app/src/main/java/com/alibaba/fastjson2/android/MainActivity.java",
+          "android-test/app/src/main/java/com/alibaba/fastjson2/android/eishay/Image.java",
+          "android-test/app/src/main/java/com/alibaba/fastjson2/android/eishay/Media.java",
+          "android-test/app/src/main/java/com/alibaba/fastjson2/android/eishay/MediaContent.java",
+          "example-spring-test/src/main/java/com/alibaba/fastjson2/example/springtest/SpringTestApplication.java",
+          "example-spring-test/src/main/java/com/alibaba/fastjson2/example/springtest/config/ChatMessageHandler.java",
+          "example-spring-test/src/main/java/com/alibaba/fastjson2/example/springtest/config/WebMvcConfigurer.java",
+          "example-spring-test/src/main/java/com/alibaba/fastjson2/example/springtest/config/WebSocketConfig.java",
+          "example-spring-test/src/main/java/com/alibaba/fastjson2/example/springtest/controller/JsonViewResolver.java",
+          "example-spring-test/src/main/java/com/alibaba/fastjson2/example/springtest/controller/WebSocket.java",
+          "example-spring-test/src/main/java/com/alibaba/fastjson2/example/springtest/entity/User.java",
+          "example-spring6-test/src/main/java/com/alibaba/fastjson2/example/spring6test/Spring6testApplication.java",
+          "example-spring6-test/src/main/java/com/alibaba/fastjson2/example/spring6test/config/ChatMessageHandler.java"
+        ]
+      },
+      "js": {
+        "occurrences": 5,
+        "unique_paths": 2,
+        "samples": [
+          "benchmarks/middleware.js",
+          "packages/insomnia-testing/jest.config.js"
+        ]
+      },
+      "kotlin": {
+        "occurrences": 2459,
+        "unique_paths": 514,
+        "samples": [
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/ApplicationPluginTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/BasePluginTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/FilteringTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/JavaPluginTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/KmpPluginTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/MinimizeTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/PublishingTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/RelocationTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/caching/ApplicationCachingTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/caching/BaseCachingTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/caching/MinimizationCachingTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/caching/RelocationCachingTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/caching/ShadowJarCachingTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/caching/TransformerCachingTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/transformers/AppendingTransformerTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/transformers/BaseTransformerTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/transformers/GroovyExtensionModuleTransformerTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/transformers/ServiceFileTransformerTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/transformers/TransformersTest.kt",
+          "src/functionalTest/kotlin/com/github/jengelman/gradle/plugins/shadow/transformers/XmlAppendingTransformerTest.kt"
+        ]
+      },
+      "python": {
+        "occurrences": 306,
+        "unique_paths": 14,
+        "samples": [
+          "benchmarks/plot_tsne_mnist.py",
+          "conftest.py",
+          "doc/data/messages/m/missing-parentheses-for-call-in-test/bad.py",
+          "doc/data/messages/m/missing-parentheses-for-call-in-test/good.py",
+          "doc/data/messages/r/redundant-unittest-assert/bad.py",
+          "doc/data/messages/r/redundant-unittest-assert/good.py",
+          "doc/data/messages/u/unsupported-membership-test/bad.py",
+          "doc/data/messages/u/unsupported-membership-test/good.py",
+          "doc/data/messages/u/using-constant-test/bad.py",
+          "doc/data/messages/u/using-constant-test/good.py",
+          "extra/setup-py.test/setup.py",
+          "sympy/integrals/rubi/rubi_tests/__init__.py",
+          "test_requests.py",
+          "tests.py"
+        ]
+      },
+      "rust": {
+        "occurrences": 1220,
+        "unique_paths": 52,
+        "samples": [
+          "benches/01_default.rs",
+          "benches/02_simple.rs",
+          "benches/03_complex.rs",
+          "benches/04_new_help.rs",
+          "benches/05_ripgrep.rs",
+          "benches/06_rustup.rs",
+          "clap_bench/src/lib.rs",
+          "clap_test/src/lib.rs",
+          "crates/nu-plugin-test-support/src/diff.rs",
+          "crates/nu-plugin-test-support/src/fake_persistent_plugin.rs",
+          "crates/nu-test-support/src/commands.rs",
+          "crates/nu-test-support/src/fs.rs",
+          "crates/nu-test-support/src/lib.rs",
+          "crates/nu-test-support/src/locale_override.rs",
+          "crates/nu-test-support/src/macros.rs",
+          "crates/nu-test-support/src/playground.rs",
+          "crates/nu-test-support/src/playground/director.rs",
+          "crates/nu-test-support/src/playground/matchers.rs",
+          "crates/nu-test-support/src/playground/nu_process.rs",
+          "crates/nu-test-support/src/playground/play.rs"
+        ]
+      },
+      "ts": {
+        "occurrences": 1234,
+        "unique_paths": 54,
+        "samples": [
+          "packages/dts-built-test/src/index.ts",
+          "packages/dts-test/appDirective.test-d.ts",
+          "packages/dts-test/appUse.test-d.ts",
+          "packages/dts-test/built.test-d.ts",
+          "packages/dts-test/compiler.test-d.ts",
+          "packages/dts-test/component.test-d.ts",
+          "packages/dts-test/componentInstance.test-d.tsx",
+          "packages/dts-test/componentTypeExtensions.test-d.tsx",
+          "packages/dts-test/defineComponent.test-d.tsx",
+          "packages/dts-test/defineCustomElement.test-d.ts",
+          "packages/dts-test/extractProps.test-d.ts",
+          "packages/dts-test/functionalComponent.test-d.tsx",
+          "packages/dts-test/h.test-d.ts",
+          "packages/dts-test/inject.test-d.ts",
+          "packages/dts-test/reactivity.test-d.ts",
+          "packages/dts-test/ref.test-d.ts",
+          "packages/dts-test/setupHelpers.test-d.ts",
+          "packages/dts-test/tsx.test-d.tsx",
+          "packages/dts-test/utils.d.ts",
+          "packages/dts-test/watch.test-d.ts"
+        ]
+      }
+    },
+    "newly_included": {
+      "java": {
+        "occurrences": 12,
+        "unique_paths": 2,
+        "samples": [
+          "src/main/java/org/mockito/internal/junit/TestFinishedEvent.java",
+          "src/main/java/org/mockito/internal/runners/util/TestMethodsFinder.java"
+        ]
+      },
+      "python": {
+        "occurrences": 2425,
+        "unique_paths": 59,
+        "samples": [
+          "astropy/coordinates/spectral_coordinate.py",
+          "astropy/coordinates/spectral_quantity.py",
+          "astropy/io/misc/asdf/tags/coordinates/spectralcoord.py",
+          "django/core/management/commands/testserver.py",
+          "django/db/migrations/operations/special.py",
+          "examples/images_contours_and_fields/specgram_demo.py",
+          "examples/lines_bars_and_markers/spectrum_demo.py",
+          "examples/specialty_plots/advanced_hillshading.py",
+          "examples/specialty_plots/anscombe.py",
+          "examples/specialty_plots/hinton_demo.py",
+          "examples/specialty_plots/leftventricle_bulleye.py",
+          "examples/specialty_plots/leftventricle_bullseye.py",
+          "examples/specialty_plots/mri_demo.py",
+          "examples/specialty_plots/mri_with_eeg.py",
+          "examples/specialty_plots/radar_chart.py",
+          "examples/specialty_plots/sankey_basics.py",
+          "examples/specialty_plots/sankey_links.py",
+          "examples/specialty_plots/sankey_rankine.py",
+          "examples/specialty_plots/skewt.py",
+          "examples/specialty_plots/topographic_hillshading.py"
+        ]
+      }
+    }
+  },
+  "gold_differences_from_legacy": {
+    "newly_excluded": {
+      "cpp": {
+        "occurrences": 32,
+        "samples": [
+          "catchorg__Catch2-1608:projects/SelfTest/Baselines/console.std.approved.txt",
+          "catchorg__Catch2-1608:projects/SelfTest/Baselines/junit.sw.approved.txt",
+          "catchorg__Catch2-1608:projects/SelfTest/Baselines/xml.sw.approved.txt",
+          "catchorg__Catch2-1609:projects/SelfTest/Baselines/compact.sw.approved.txt",
+          "catchorg__Catch2-1609:projects/SelfTest/Baselines/console.std.approved.txt",
+          "catchorg__Catch2-1609:projects/SelfTest/Baselines/console.sw.approved.txt",
+          "catchorg__Catch2-1609:projects/SelfTest/Baselines/junit.sw.approved.txt",
+          "catchorg__Catch2-1609:projects/SelfTest/Baselines/xml.sw.approved.txt",
+          "catchorg__Catch2-1614:projects/SelfTest/Baselines/compact.sw.approved.txt",
+          "catchorg__Catch2-1614:projects/SelfTest/Baselines/console.std.approved.txt",
+          "catchorg__Catch2-1614:projects/SelfTest/Baselines/console.sw.approved.txt",
+          "catchorg__Catch2-1614:projects/SelfTest/Baselines/junit.sw.approved.txt",
+          "catchorg__Catch2-1614:projects/SelfTest/Baselines/xml.sw.approved.txt",
+          "catchorg__Catch2-1616:projects/ExtraTests/CMakeLists.txt",
+          "catchorg__Catch2-1616:projects/ExtraTests/X20-BenchmarkingMacros.cpp",
+          "catchorg__Catch2-1616:projects/SelfTest/Baselines/compact.sw.approved.txt",
+          "catchorg__Catch2-1616:projects/SelfTest/Baselines/console.std.approved.txt",
+          "catchorg__Catch2-1616:projects/SelfTest/Baselines/console.sw.approved.txt",
+          "catchorg__Catch2-1616:projects/SelfTest/Baselines/junit.sw.approved.txt",
+          "catchorg__Catch2-1616:projects/SelfTest/Baselines/xml.sw.approved.txt"
+        ]
+      },
+      "rust": {
+        "occurrences": 4,
+        "samples": [
+          "clap-rs__clap-2642:benches/05_ripgrep.rs",
+          "clap-rs__clap-2867:benches/04_new_help.rs",
+          "clap-rs__clap-2867:benches/05_ripgrep.rs",
+          "tokio-rs__tokio-7124:benches/Cargo.toml"
+        ]
+      }
+    },
+    "newly_included": {
+      "cpp": {
+        "occurrences": 1,
+        "samples": [
+          "catchorg__Catch2-1616:docs/benchmarks.md"
+        ]
+      },
+      "python": {
+        "occurrences": 1,
+        "samples": [
+          "sympy__sympy-13852:sympy/functions/special/zeta_functions.py"
+        ]
+      }
+    }
+  },
+  "note": "Legacy comparison quantifies protocol change; manual semantic review is still required for heuristic labels."
+}

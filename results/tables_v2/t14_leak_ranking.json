@@ -1,0 +1,360 @@
+{
+  "control_protocol": "issue_only_v2",
+  "treatment_protocol": "legacy_mixed_v1",
+  "n_instances": 1791,
+  "n_methods": 8,
+  "n_clusters": 57,
+  "per_method": {
+    "bm25": {
+      "n": 1791,
+      "hit@1": {
+        "control": 0.4064768285873814,
+        "treatment": 0.42099385817978785,
+        "delta": 0.014517029592406477,
+        "delta_ci": [
+          -0.004273504273504274,
+          0.033809166040571
+        ]
+      },
+      "mrr": {
+        "control": 0.540537373028609,
+        "treatment": 0.5573946695370804,
+        "delta": 0.016857296508471353,
+        "delta_ci": [
+          0.002322963402421625,
+          0.030818199084275993
+        ]
+      }
+    },
+    "bm25_path": {
+      "n": 1791,
+      "hit@1": {
+        "control": 0.40982691233947516,
+        "treatment": 0.4260189838079285,
+        "delta": 0.01619207146845338,
+        "delta_ci": [
+          -0.0026613439787092482,
+          0.035687732342007436
+        ]
+      },
+      "mrr": {
+        "control": 0.5430763466454358,
+        "treatment": 0.5607374697063762,
+        "delta": 0.017661123060940434,
+        "delta_ci": [
+          0.002700550624810409,
+          0.03180796152106282
+        ]
+      }
+    },
+    "anchor_path_only": {
+      "n": 1791,
+      "hit@1": {
+        "control": 0.43662758235622556,
+        "treatment": 0.45114461194863203,
+        "delta": 0.014517029592406477,
+        "delta_ci": [
+          -0.00411522633744856,
+          0.034530386740331494
+        ]
+      },
+      "mrr": {
+        "control": 0.5673239669599174,
+        "treatment": 0.5844519674298694,
+        "delta": 0.017128000469951988,
+        "delta_ci": [
+          0.0023349843088568997,
+          0.03191550714776662
+        ]
+      }
+    },
+    "anchor_symbol_only": {
+      "n": 1791,
+      "hit@1": {
+        "control": 0.3629257398101619,
+        "treatment": 0.38358458961474035,
+        "delta": 0.02065884980457845,
+        "delta_ci": [
+          0.0,
+          0.04307116104868914
+        ]
+      },
+      "mrr": {
+        "control": 0.5066571090905364,
+        "treatment": 0.527742578566002,
+        "delta": 0.021085469475465496,
+        "delta_ci": [
+          0.0052213999672068405,
+          0.03876708614782323
+        ]
+      }
+    },
+    "bm25_anchor": {
+      "n": 1791,
+      "hit@1": {
+        "control": 0.40033500837520936,
+        "treatment": 0.42434394193188163,
+        "delta": 0.02400893355667225,
+        "delta_ci": [
+          0.0027247956403269754,
+          0.04481998530492285
+        ]
+      },
+      "mrr": {
+        "control": 0.5391880924913137,
+        "treatment": 0.5625231921055638,
+        "delta": 0.023335099614250086,
+        "delta_ci": [
+          0.006861496451554669,
+          0.040482094127921656
+        ]
+      }
+    },
+    "bm25_graph": {
+      "n": 1791,
+      "hit@1": {
+        "control": 0.24567280848687884,
+        "treatment": 0.2534896705750977,
+        "delta": 0.007816862088218872,
+        "delta_ci": [
+          -0.014503263234227702,
+          0.024702653247941447
+        ]
+      },
+      "mrr": {
+        "control": 0.39046150362387183,
+        "treatment": 0.39665299497887563,
+        "delta": 0.006191491355003801,
+        "delta_ci": [
+          -0.008109931815062931,
+          0.017360539814470274
+        ]
+      }
+    },
+    "bm25_anchor_graph": {
+      "n": 1791,
+      "hit@1": {
+        "control": 0.3322166387493021,
+        "treatment": 0.34394193188163036,
+        "delta": 0.011725293132328308,
+        "delta_ci": [
+          -0.007531380753138075,
+          0.027607361963190184
+        ]
+      },
+      "mrr": {
+        "control": 0.4731412411727677,
+        "treatment": 0.48880730672645983,
+        "delta": 0.015666065553692158,
+        "delta_ci": [
+          0.00037965929068876263,
+          0.02936193585548827
+        ]
+      }
+    },
+    "anchor_path_graph": {
+      "n": 1791,
+      "hit@1": {
+        "control": 0.31155778894472363,
+        "treatment": 0.32719151312116135,
+        "delta": 0.015633724176437745,
+        "delta_ci": [
+          -0.011707988980716254,
+          0.03754266211604096
+        ]
+      },
+      "mrr": {
+        "control": 0.449452032677103,
+        "treatment": 0.4627350143990177,
+        "delta": 0.013282981721914774,
+        "delta_ci": [
+          -0.004443838127972751,
+          0.02744214148164927
+        ]
+      }
+    }
+  },
+  "ordering": {
+    "hit@1": {
+      "issue_only": [
+        "anchor_path_only",
+        "bm25_path",
+        "bm25",
+        "bm25_anchor",
+        "anchor_symbol_only",
+        "bm25_anchor_graph",
+        "anchor_path_graph",
+        "bm25_graph"
+      ],
+      "superseded": [
+        "anchor_path_only",
+        "bm25_path",
+        "bm25_anchor",
+        "bm25",
+        "anchor_symbol_only",
+        "bm25_anchor_graph",
+        "anchor_path_graph",
+        "bm25_graph"
+      ]
+    },
+    "mrr": {
+      "issue_only": [
+        "anchor_path_only",
+        "bm25_path",
+        "bm25",
+        "bm25_anchor",
+        "anchor_symbol_only",
+        "bm25_anchor_graph",
+        "anchor_path_graph",
+        "bm25_graph"
+      ],
+      "superseded": [
+        "anchor_path_only",
+        "bm25_anchor",
+        "bm25_path",
+        "bm25",
+        "anchor_symbol_only",
+        "bm25_anchor_graph",
+        "anchor_path_graph",
+        "bm25_graph"
+      ]
+    }
+  },
+  "agreement": {
+    "hit@1": {
+      "spearman": 0.9761904761904762,
+      "spearman_ci": [
+        0.9047619047619048,
+        1.0
+      ],
+      "kendall": 0.9285714285714286,
+      "concordant": 27,
+      "discordant": 1,
+      "n_pairs": 28,
+      "leader_unchanged": true,
+      "moved": [
+        "bm25",
+        "bm25_anchor"
+      ]
+    },
+    "mrr": {
+      "spearman": 0.9285714285714286,
+      "spearman_ci": [
+        0.9285714285714286,
+        1.0
+      ],
+      "kendall": 0.8571428571428571,
+      "concordant": 26,
+      "discordant": 2,
+      "n_pairs": 28,
+      "leader_unchanged": true,
+      "moved": [
+        "bm25",
+        "bm25_path",
+        "bm25_anchor"
+      ]
+    }
+  },
+  "flips": [
+    {
+      "metric": "hit@1",
+      "favoured_under_issue_only": "bm25",
+      "favoured_under_superseded": "bm25_anchor",
+      "delta_control": 0.006141820212172022,
+      "delta_treatment": -0.00335008375209378,
+      "control": {
+        "delta": -0.0061,
+        "ci": [
+          -0.0443,
+          0.0484
+        ],
+        "p_cluster": 0.1472801719589588,
+        "n_clusters": 57
+      },
+      "treatment": {
+        "delta": 0.0034,
+        "ci": [
+          -0.0327,
+          0.0536
+        ],
+        "p_cluster": 0.4606518962137689,
+        "n_clusters": 57
+      }
+    },
+    {
+      "metric": "mrr",
+      "favoured_under_issue_only": "bm25",
+      "favoured_under_superseded": "bm25_anchor",
+      "delta_control": 0.0013492805372953276,
+      "delta_treatment": -0.005128522568483396,
+      "control": {
+        "delta": -0.0013,
+        "ci": [
+          -0.0352,
+          0.0455
+        ],
+        "p_cluster": 0.06122987842003233,
+        "n_clusters": 57
+      },
+      "treatment": {
+        "delta": 0.0051,
+        "ci": [
+          -0.0274,
+          0.0506
+        ],
+        "p_cluster": 0.15730162470388975,
+        "n_clusters": 57
+      }
+    },
+    {
+      "metric": "mrr",
+      "favoured_under_issue_only": "bm25_path",
+      "favoured_under_superseded": "bm25_anchor",
+      "delta_control": 0.003888254154122084,
+      "delta_treatment": -0.001785722399187617,
+      "control": {
+        "delta": -0.0039,
+        "ci": [
+          -0.0371,
+          0.0425
+        ],
+        "p_cluster": 0.15448740694256521,
+        "n_clusters": 57
+      },
+      "treatment": {
+        "delta": 0.0018,
+        "ci": [
+          -0.0304,
+          0.0467
+        ],
+        "p_cluster": 0.21551565064056688,
+        "n_clusters": 57
+      }
+    }
+  ],
+  "mechanism_query_mentions_gold_path": {
+    "all": {
+      "n": 1791,
+      "control": 0.17476270240089337,
+      "treatment": 0.19821328866554996,
+      "delta": 0.023450586264656598
+    },
+    "python": {
+      "n": 500,
+      "control": 0.244,
+      "treatment": 0.244,
+      "delta": 0.0
+    },
+    "non_python": {
+      "n": 1291,
+      "control": 0.14794732765298219,
+      "treatment": 0.18048024786986833,
+      "delta": 0.03253292021688614
+    }
+  },
+  "notes": [
+    "Rank agreement over 8 configurations is coarse: Kendall tau moves in steps of 1/28 = 0.036.",
+    "The ordering is computed from the same instances under both rules, so the only difference is the query text.",
+    "A flipped pair is reported with its paired interval under both rules so that a flip between indistinguishable configurations is not read as a reversal of a real difference."
+  ]
+}

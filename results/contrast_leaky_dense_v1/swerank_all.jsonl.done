@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "out": "results/contrast_leaky_dense_v1/swerank_all.jsonl",
+  "rows": 1791,
+  "instances": 1791,
+  "langs": [
+    "c",
+    "cpp",
+    "go",
+    "java",
+    "js",
+    "kotlin",
+    "python",
+    "rust",
+    "ts"
+  ],
+  "method": "bm25_swerank_rerank50",
+  "query_protocol": "legacy_mixed_v1",
+  "model_id": "Salesforce/SweRankEmbed-Small",
+  "candidate_protocol": "component_aware_test_filter_v6",
+  "metric_protocol": "full_precision_metrics_v1",
+  "model_revision": "745d2a06103a66d3cfa600aa52fc0d3523010daa",
+  "candidate_k": 50,
+  "remote_code_revision": "92d97331f1f4b6a366c1f161354b9f3390cc219f",
+  "max_seq_length": 512,
+  "batch_size": 24,
+  "device": "mps",
+  "limit": 0,
+  "cap": 0
+}

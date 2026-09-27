@@ -1,0 +1,130 @@
+{
+  "status": "VERIFIED",
+  "question": "Is a post-solution query a property of issue-localization benchmarks, or of a particular derivative conversion?",
+  "answer": "It is a property of the derivative conversion. Every SWE-bench family examined separates the issue text (query) from the solution (patch/test_patch), whereas the MTEB reranking task packages top-level PR text as its query.",
+  "caveat": "This audit classifies the *query field's provenance from the released schema*. It is not a text-level leak audit of the SWE-bench families; the solution-leakage question for those benchmarks is a different measurement, addressed by Aleithan et al. (2024) and by OpenAI (2026).",
+  "records": [
+    {
+      "dataset": "SWE-bench/SWE-bench",
+      "sha": "c6fe717fd7a4c3ac1daa4055a4fd082c6a1d28a2",
+      "configs": [
+        "default"
+      ],
+      "probed_config": "default",
+      "probed_split": "test",
+      "columns": [
+        "FAIL_TO_PASS",
+        "PASS_TO_PASS",
+        "base_commit",
+        "created_at",
+        "difficulty",
+        "environment_setup_commit",
+        "eval_script",
+        "eval_type",
+        "hints_text",
+        "image",
+        "instance_id",
+        "log_parser",
+        "patch",
+        "problem_statement",
+        "repo",
+        "test_patch",
+        "version"
+      ],
+      "query_field": "problem_statement",
+      "solution_fields_present": [
+        "patch",
+        "test_patch"
+      ],
+      "query_provenance": "PRE_SOLUTION_ISSUE_TEXT",
+      "evidence": "the query field is the GitHub issue text and the solution is carried by the separate patch/test_patch fields, so a query cannot contain the solution by construction"
+    },
+    {
+      "dataset": "princeton-nlp/SWE-bench_Verified",
+      "sha": "c104f840cc67f8b6eec6f759ebc8b2693d585d4a",
+      "configs": [
+        "default"
+      ],
+      "probed_config": "default",
+      "probed_split": "test",
+      "columns": [
+        "FAIL_TO_PASS",
+        "PASS_TO_PASS",
+        "base_commit",
+        "created_at",
+        "difficulty",
+        "environment_setup_commit",
+        "hints_text",
+        "instance_id",
+        "patch",
+        "problem_statement",
+        "repo",
+        "test_patch",
+        "version"
+      ],
+      "query_field": "problem_statement",
+      "solution_fields_present": [
+        "patch",
+        "test_patch"
+      ],
+      "query_provenance": "PRE_SOLUTION_ISSUE_TEXT",
+      "evidence": "the query field is the GitHub issue text and the solution is carried by the separate patch/test_patch fields, so a query cannot contain the solution by construction"
+    },
+    {
+      "dataset": "SWE-bench/SWE-bench_Multilingual",
+      "sha": "846e647b9f33c0b51b739d005d13d85493c9af09",
+      "configs": [
+        "default"
+      ],
+      "probed_config": "default",
+      "probed_split": "test",
+      "columns": [
+        "FAIL_TO_PASS",
+        "PASS_TO_PASS",
+        "base_commit",
+        "created_at",
+        "eval_script",
+        "eval_type",
+        "hints_text",
+        "image",
+        "instance_id",
+        "log_parser",
+        "patch",
+        "problem_statement",
+        "repo",
+        "test_patch",
+        "version"
+      ],
+      "query_field": "problem_statement",
+      "solution_fields_present": [
+        "patch",
+        "test_patch"
+      ],
+      "query_provenance": "PRE_SOLUTION_ISSUE_TEXT",
+      "evidence": "the query field is the GitHub issue text and the solution is carried by the separate patch/test_patch fields, so a query cannot contain the solution by construction"
+    },
+    {
+      "dataset": "mteb/MultiSWEbenchRR",
+      "sha": "f80517681e98077bb9b20470ab562bb6e94e7897",
+      "configs": [
+        "corpus",
+        "qrels",
+        "queries",
+        "top_ranked"
+      ],
+      "probed_config": "corpus",
+      "probed_split": "train",
+      "columns": [
+        "id",
+        "text",
+        "title"
+      ],
+      "query_field": "text",
+      "solution_fields_present": [],
+      "query_provenance": "MIXED",
+      "measured_pr_only_exact": 954,
+      "measured_total": 1688,
+      "evidence": "exact normalized-text matching against Multi-SWE-bench issue and top-level PR text; see results/audit_v2/mteb_query_audit.json"
+    }
+  ]
+}

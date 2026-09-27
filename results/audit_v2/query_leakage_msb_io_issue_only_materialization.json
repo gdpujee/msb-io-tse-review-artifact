@@ -1,0 +1,100 @@
+{
+ "status": "VERIFIED",
+ "materialization": "data/instances.jsonl",
+ "label": "MSB-IO issue-only materialization",
+ "instances": 1791,
+ "instances_missing_from_corpus": 0,
+ "pr_title_in_query": 35,
+ "pr_title_in_query_fraction": 0.019542,
+ "pr_body_in_query": 0,
+ "pr_body_in_query_fraction": 0.0,
+ "attributed_issue_title": 29,
+ "attributed_issue_proposal": 2,
+ "attributed_pr_reference": 4,
+ "residual_unexplained": 0,
+ "unexplained_examples": [],
+ "per_language": {
+  "c": {
+   "instances": 128,
+   "pr_title_in_query": 2,
+   "pr_body_in_query": 0,
+   "issue_title": 2,
+   "issue_proposal": 0,
+   "pr_reference": 0,
+   "unexplained": 0
+  },
+  "cpp": {
+   "instances": 129,
+   "pr_title_in_query": 4,
+   "pr_body_in_query": 0,
+   "issue_title": 4,
+   "issue_proposal": 0,
+   "pr_reference": 0,
+   "unexplained": 0
+  },
+  "go": {
+   "instances": 428,
+   "pr_title_in_query": 18,
+   "pr_body_in_query": 0,
+   "issue_title": 16,
+   "issue_proposal": 2,
+   "pr_reference": 0,
+   "unexplained": 0
+  },
+  "java": {
+   "instances": 128,
+   "pr_title_in_query": 3,
+   "pr_body_in_query": 0,
+   "issue_title": 3,
+   "issue_proposal": 0,
+   "pr_reference": 0,
+   "unexplained": 0
+  },
+  "js": {
+   "instances": 84,
+   "pr_title_in_query": 4,
+   "pr_body_in_query": 0,
+   "issue_title": 1,
+   "issue_proposal": 0,
+   "pr_reference": 3,
+   "unexplained": 0
+  },
+  "kotlin": {
+   "instances": 105,
+   "pr_title_in_query": 0,
+   "pr_body_in_query": 0,
+   "issue_title": 0,
+   "issue_proposal": 0,
+   "pr_reference": 0,
+   "unexplained": 0
+  },
+  "python": {
+   "instances": 500,
+   "pr_title_in_query": 0,
+   "pr_body_in_query": 0,
+   "issue_title": 0,
+   "issue_proposal": 0,
+   "pr_reference": 0,
+   "unexplained": 0
+  },
+  "rust": {
+   "instances": 239,
+   "pr_title_in_query": 4,
+   "pr_body_in_query": 0,
+   "issue_title": 3,
+   "issue_proposal": 0,
+   "pr_reference": 1,
+   "unexplained": 0
+  },
+  "ts": {
+   "instances": 50,
+   "pr_title_in_query": 0,
+   "pr_body_in_query": 0,
+   "issue_title": 0,
+   "issue_proposal": 0,
+   "pr_reference": 0,
+   "unexplained": 0
+  }
+ },
+ "criterion": "A residual PR-title match is acceptable when it is attributable to pre-solution text: the PR is named after a linked issue (issue_title) or quotes the reporter's own wording (issue_proposal). A match on a line that references a pull request (pr_reference) is upstream issue-body contamination -- the issue field was edited after the fix -- and is reported as residual leakage rather than hidden. Anything else aborts."
+}

@@ -1,0 +1,117 @@
+{
+  "status": "VERIFIED",
+  "selection": "lexicographically first and last indexed instance per language",
+  "instances_reexecuted": 18,
+  "method_instance_runs": 144,
+  "errors": [],
+  "checked": [
+    {
+      "lang": "c",
+      "instance_id": "facebook__zstd-1008",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "c",
+      "instance_id": "ponylang__ponyc-671",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "cpp",
+      "instance_id": "catchorg__Catch2-1422",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "cpp",
+      "instance_id": "yhirose__cpp-httplib-1765",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "go",
+      "instance_id": "cli__cli-10009",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "go",
+      "instance_id": "zeromicro__go-zero-990",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "java",
+      "instance_id": "alibaba__fastjson2-1245",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "java",
+      "instance_id": "mockito__mockito-3424",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "js",
+      "instance_id": "Kong__insomnia-7734",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "js",
+      "instance_id": "iamkun__dayjs-973",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "kotlin",
+      "instance_id": "GradleUp__shadow-1313",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "kotlin",
+      "instance_id": "square__okhttp-8968",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "python",
+      "instance_id": "astropy__astropy-12907",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "python",
+      "instance_id": "sympy__sympy-24661",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "rust",
+      "instance_id": "BurntSushi__ripgrep-1294",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "rust",
+      "instance_id": "tokio-rs__tracing-2897",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "ts",
+      "instance_id": "darkreader__darkreader-6747",
+      "methods": 8,
+      "status": "VERIFIED"
+    },
+    {
+      "lang": "ts",
+      "instance_id": "vuejs__core-9751",
+      "methods": 8,
+      "status": "VERIFIED"
+    }
+  ]
+}

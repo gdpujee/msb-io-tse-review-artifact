@@ -1,0 +1,478 @@
+{
+  "status": "VERIFIED",
+  "query_protocol": "issue_only_v2",
+  "candidate_protocol": "component_aware_test_filter_v6",
+  "query_policy": {
+    "allowed": [
+      "problem_statement",
+      "resolved_issues[].title",
+      "resolved_issues[].body"
+    ],
+    "forbidden": [
+      "top-level title",
+      "top-level body",
+      "hints",
+      "hints_text"
+    ]
+  },
+  "n_instances": 1791,
+  "n_repositories": 57,
+  "per_language": {
+    "c": {
+      "instances": 128,
+      "repositories": 3,
+      "query_sources": {
+        "resolved_issues": 128
+      },
+      "gold_path_cue_instances": 25,
+      "gold_path_cue_fraction": 0.195312,
+      "index_files": 128
+    },
+    "cpp": {
+      "instances": 129,
+      "repositories": 5,
+      "query_sources": {
+        "resolved_issues": 129
+      },
+      "gold_path_cue_instances": 51,
+      "gold_path_cue_fraction": 0.395349,
+      "index_files": 129
+    },
+    "go": {
+      "instances": 428,
+      "repositories": 3,
+      "query_sources": {
+        "resolved_issues": 428
+      },
+      "gold_path_cue_instances": 42,
+      "gold_path_cue_fraction": 0.098131,
+      "index_files": 428
+    },
+    "java": {
+      "instances": 128,
+      "repositories": 9,
+      "query_sources": {
+        "resolved_issues": 128
+      },
+      "gold_path_cue_instances": 34,
+      "gold_path_cue_fraction": 0.265625,
+      "index_files": 128
+    },
+    "js": {
+      "instances": 84,
+      "repositories": 5,
+      "query_sources": {
+        "resolved_issues": 84
+      },
+      "gold_path_cue_instances": 4,
+      "gold_path_cue_fraction": 0.047619,
+      "index_files": 84
+    },
+    "kotlin": {
+      "instances": 105,
+      "repositories": 8,
+      "query_sources": {
+        "resolved_issues": 105
+      },
+      "gold_path_cue_instances": 11,
+      "gold_path_cue_fraction": 0.104762,
+      "index_files": 105
+    },
+    "python": {
+      "instances": 500,
+      "repositories": 12,
+      "query_sources": {
+        "problem_statement": 500
+      },
+      "gold_path_cue_instances": 122,
+      "gold_path_cue_fraction": 0.244,
+      "index_files": 500
+    },
+    "rust": {
+      "instances": 239,
+      "repositories": 10,
+      "query_sources": {
+        "resolved_issues": 239
+      },
+      "gold_path_cue_instances": 22,
+      "gold_path_cue_fraction": 0.09205,
+      "index_files": 239
+    },
+    "ts": {
+      "instances": 50,
+      "repositories": 2,
+      "query_sources": {
+        "resolved_issues": 50
+      },
+      "gold_path_cue_instances": 2,
+      "gold_path_cue_fraction": 0.04,
+      "index_files": 50
+    }
+  },
+  "empty_queries": [],
+  "instances_without_non_test_gold": [],
+  "duplicate_instance_ids": [],
+  "legacy_index_query_samples": {
+    "c": {
+      "file": "facebook__zstd-1008.json.gz",
+      "stored_protocol": "legacy_v1"
+    },
+    "cpp": {
+      "file": "catchorg__Catch2-1422.json.gz",
+      "stored_protocol": "legacy_v1"
+    },
+    "go": {
+      "file": "cli__cli-10009.json.gz",
+      "stored_protocol": "legacy_v1"
+    },
+    "java": {
+      "file": "alibaba__fastjson2-1245.json.gz",
+      "stored_protocol": "legacy_v1"
+    },
+    "js": {
+      "file": "Kong__insomnia-7734.json.gz",
+      "stored_protocol": "legacy_v1"
+    },
+    "kotlin": {
+      "file": "GradleUp__shadow-1313.json.gz",
+      "stored_protocol": "legacy_v1"
+    },
+    "python": {
+      "file": "astropy__astropy-12907.json.gz",
+      "stored_protocol": "legacy_v1"
+    },
+    "rust": {
+      "file": "BurntSushi__ripgrep-1294.json.gz",
+      "stored_protocol": "legacy_v1"
+    },
+    "ts": {
+      "file": "darkreader__darkreader-6747.json.gz",
+      "stored_protocol": "legacy_v1"
+    }
+  },
+  "index_query_handling": "run_experiment.py replaces legacy stored queries from authoritative raw rows; legacy query text is never used by protocol V2",
+  "raw_files": [
+    {
+      "path": "data/raw/c__facebook__zstd_dataset.jsonl",
+      "lang": "c",
+      "rows": 29,
+      "bytes": 677646,
+      "sha256": "689b60bfbe9b1c9558ac345468b54c40fbb30748069caa1a92ca747773610e7b"
+    },
+    {
+      "path": "data/raw/c__jqlang__jq_dataset.jsonl",
+      "lang": "c",
+      "rows": 17,
+      "bytes": 148809,
+      "sha256": "8be07a2281fa766b310037db9bc2abc3f8c7150c3d471ea56a964921d5609e8f"
+    },
+    {
+      "path": "data/raw/c__ponylang__ponyc_dataset.jsonl",
+      "lang": "c",
+      "rows": 82,
+      "bytes": 26444998,
+      "sha256": "cddd6e471bd8a1ad9e9971d8a16ca5a0e9f002789cefc5a40ee025f8875122ee"
+    },
+    {
+      "path": "data/raw/cpp__catchorg__Catch2_dataset.jsonl",
+      "lang": "cpp",
+      "rows": 12,
+      "bytes": 698675,
+      "sha256": "a2fad917a116bca66692129bfa91bbf6d1e8563dd0bbd7fd82732d6a82f3048f"
+    },
+    {
+      "path": "data/raw/cpp__fmtlib__fmt_dataset.jsonl",
+      "lang": "cpp",
+      "rows": 41,
+      "bytes": 375788,
+      "sha256": "7d060ca46ba6343373aa68ced7fcca70e2ce0addac7ec610c47d2bbfcfed6762"
+    },
+    {
+      "path": "data/raw/cpp__nlohmann__json_dataset.jsonl",
+      "lang": "cpp",
+      "rows": 55,
+      "bytes": 4019513,
+      "sha256": "bdc33098e920b20fcdef5680953a723c171bd8f53608e8cecad305e96495a93c"
+    },
+    {
+      "path": "data/raw/cpp__simdjson__simdjson_dataset.jsonl",
+      "lang": "cpp",
+      "rows": 20,
+      "bytes": 1506793,
+      "sha256": "0a7aba551a76754fd088c5eccbab4caae025bdf6cdae2faa05a9f7b5f11994c2"
+    },
+    {
+      "path": "data/raw/cpp__yhirose__cpp-httplib_dataset.jsonl",
+      "lang": "cpp",
+      "rows": 1,
+      "bytes": 60772,
+      "sha256": "3551b73936dd788873b7727649ca94c102678d5541f1eb0a14d27730799d6143"
+    },
+    {
+      "path": "data/raw/go__cli__cli_dataset.jsonl",
+      "lang": "go",
+      "rows": 397,
+      "bytes": 167907603,
+      "sha256": "18abaac48227bf15a64bcf649a4fcdb34ea8148962f371241ea2bb91608cf4b1"
+    },
+    {
+      "path": "data/raw/go__grpc__grpc-go_dataset.jsonl",
+      "lang": "go",
+      "rows": 16,
+      "bytes": 864342,
+      "sha256": "cd8984b884679c44f71c2af958d74c692f4a1feb6ec68e74b0ddc312526b4e13"
+    },
+    {
+      "path": "data/raw/go__zeromicro__go-zero_dataset.jsonl",
+      "lang": "go",
+      "rows": 15,
+      "bytes": 3438426,
+      "sha256": "6047e4f92571292d8fa77bb866b875930c2aa600f46d408eb02bfc7ed3e48e0f"
+    },
+    {
+      "path": "data/raw/java__alibaba__fastjson2_dataset.jsonl",
+      "lang": "java",
+      "rows": 6,
+      "bytes": 3658853,
+      "sha256": "7e02214eba338dcfb41c961f15cec28d299dda5c74836794463ae70a3c0832a4"
+    },
+    {
+      "path": "data/raw/java__apache__dubbo_dataset.jsonl",
+      "lang": "java",
+      "rows": 3,
+      "bytes": 376821,
+      "sha256": "a12c85a7232a449cfd4f9ef93bb475a3b2193c2c0d53cd0802942259d0d3ccd6"
+    },
+    {
+      "path": "data/raw/java__elastic__logstash_dataset.jsonl",
+      "lang": "java",
+      "rows": 38,
+      "bytes": 12174447,
+      "sha256": "e3bd997cdedacc450f9c079bcdd81f287c7260f27f211fd8de7bf63af3d09e98"
+    },
+    {
+      "path": "data/raw/java__fasterxml__jackson-core_dataset.jsonl",
+      "lang": "java",
+      "rows": 18,
+      "bytes": 967999,
+      "sha256": "21f1f1350dcaf687840f6cf0dce4198c7958cc66cd6ab6722a0dd3a18860147e"
+    },
+    {
+      "path": "data/raw/java__fasterxml__jackson-databind_dataset.jsonl",
+      "lang": "java",
+      "rows": 42,
+      "bytes": 8412746,
+      "sha256": "60911e77fe7d581d09edde04cb329f894984e4bfefa2101360cc4ff11ebb6f55"
+    },
+    {
+      "path": "data/raw/java__fasterxml__jackson-dataformat-xml_dataset.jsonl",
+      "lang": "java",
+      "rows": 5,
+      "bytes": 279932,
+      "sha256": "a5690cb59b2c8d244139bae8a6f99937df9aebc320bbaf9cbf8505f02c025ea9"
+    },
+    {
+      "path": "data/raw/java__google__gson_dataset.jsonl",
+      "lang": "java",
+      "rows": 5,
+      "bytes": 122857,
+      "sha256": "fc4e6547d8ccd761719c68dc09053b9e10ba9aca8db97b4b565dbf88c83473f6"
+    },
+    {
+      "path": "data/raw/java__googlecontainertools__jib_dataset.jsonl",
+      "lang": "java",
+      "rows": 5,
+      "bytes": 135084,
+      "sha256": "ca2b733714ff2886cc3a47df8ff50cadf74bc7afcf9bfce16ec96c666e9362f3"
+    },
+    {
+      "path": "data/raw/java__mockito__mockito_dataset.jsonl",
+      "lang": "java",
+      "rows": 6,
+      "bytes": 255347,
+      "sha256": "ba9658d470f9365c764342cb41af899db0ab616c18887498e8db038bea7669bf"
+    },
+    {
+      "path": "data/raw/js__Kong__insomnia_dataset.jsonl",
+      "lang": "js",
+      "rows": 1,
+      "bytes": 64765,
+      "sha256": "a12c192097969d351c1081cfb5728680864b0c7d8f3bf2a9e90c2f0a60c8836f"
+    },
+    {
+      "path": "data/raw/js__anuraghazra__github-readme-stats_dataset.jsonl",
+      "lang": "js",
+      "rows": 19,
+      "bytes": 1003324,
+      "sha256": "4c3e85ffc054321e0a5aed272e010592eea8cd70ddf52cce0f953574285bcdc7"
+    },
+    {
+      "path": "data/raw/js__axios__axios_dataset.jsonl",
+      "lang": "js",
+      "rows": 4,
+      "bytes": 151870,
+      "sha256": "64217dadc28cf21cc3b4d0777eef8207f957a5f0edfc7de43e13bee680d76c64"
+    },
+    {
+      "path": "data/raw/js__expressjs__express_dataset.jsonl",
+      "lang": "js",
+      "rows": 4,
+      "bytes": 995502,
+      "sha256": "b409503d27b227982c8063b3735463899b7134afd7c3b712d75e04d50c442913"
+    },
+    {
+      "path": "data/raw/js__iamkun__dayjs_dataset.jsonl",
+      "lang": "js",
+      "rows": 56,
+      "bytes": 954834,
+      "sha256": "2385ad31059b7448d35aa2dba38c03c2cae9ed09f6e794d299649a22bef71c71"
+    },
+    {
+      "path": "data/raw/kotlin__GradleUp__shadow_dataset.jsonl",
+      "lang": "kotlin",
+      "rows": 1,
+      "bytes": 34371,
+      "sha256": "0b4401c7d5b86a05538085b910ce862dfad978363af34fb09be901df5d6f0c3e"
+    },
+    {
+      "path": "data/raw/kotlin__Hannah-Sten__TeXiFy-IDEA_dataset.jsonl",
+      "lang": "kotlin",
+      "rows": 8,
+      "bytes": 2877464,
+      "sha256": "e79608344483a7a806a5039e3a54ae76c4578c96b23aa12b6b774244f11b4380"
+    },
+    {
+      "path": "data/raw/kotlin__Kotlin__dataframe_dataset.jsonl",
+      "lang": "kotlin",
+      "rows": 5,
+      "bytes": 3359415,
+      "sha256": "e4a6f80e16bc65b6ea55c28729228f8631007f9b549dc1ff2671ea5c8874a8ca"
+    },
+    {
+      "path": "data/raw/kotlin__ankidroid__Anki-Android_dataset.jsonl",
+      "lang": "kotlin",
+      "rows": 6,
+      "bytes": 2462289,
+      "sha256": "9426e981a7c8e3ca0988b4d1865925fbfc8d28b134c4625ecf9a9eee3009f32b"
+    },
+    {
+      "path": "data/raw/kotlin__detekt__detekt_dataset.jsonl",
+      "lang": "kotlin",
+      "rows": 28,
+      "bytes": 68859690,
+      "sha256": "053a79656e6483c982acd427ffca95321bc81512a8149eda364464c76eaf3c6e"
+    },
+    {
+      "path": "data/raw/kotlin__oss-review-toolkit__ort_dataset.jsonl",
+      "lang": "kotlin",
+      "rows": 12,
+      "bytes": 12238927,
+      "sha256": "68ec384a0dc72b119dc92bcd30ea5dc302c3680060a5205b633d3fe28970da36"
+    },
+    {
+      "path": "data/raw/kotlin__pinterest__ktlint_dataset.jsonl",
+      "lang": "kotlin",
+      "rows": 43,
+      "bytes": 70433294,
+      "sha256": "d7e755c123188078cc414bd8afcff360698558fb84564ffb5d5e6b5b53567ab5"
+    },
+    {
+      "path": "data/raw/kotlin__square__okhttp_dataset.jsonl",
+      "lang": "kotlin",
+      "rows": 2,
+      "bytes": 816039,
+      "sha256": "068cdcf7946a147098518383cb9c97557e35e63a8bdd9330d0196bdb97ddc01d"
+    },
+    {
+      "path": "data/raw/python__multi_swe_bench_python.jsonl",
+      "lang": "python",
+      "rows": 500,
+      "bytes": 31418564,
+      "sha256": "ce3aa6e39145618cab6f2af03bf7fd98a3b6c16f7afea13e7afbcf57a3e8befe"
+    },
+    {
+      "path": "data/raw/rust__BurntSushi__ripgrep_dataset.jsonl",
+      "lang": "rust",
+      "rows": 14,
+      "bytes": 1583497,
+      "sha256": "e5e82e96a002feabee5693c3cbe0856e67879c74874c016347ae476b24afc53e"
+    },
+    {
+      "path": "data/raw/rust__clap-rs__clap_dataset.jsonl",
+      "lang": "rust",
+      "rows": 132,
+      "bytes": 28813289,
+      "sha256": "098ea3afa5700cb67e3a27e859bdcce18f4468e373172254155862c313f9cf32"
+    },
+    {
+      "path": "data/raw/rust__nushell__nushell_dataset.jsonl",
+      "lang": "rust",
+      "rows": 14,
+      "bytes": 4503595,
+      "sha256": "e5f23ca6881643c58f2f2c0dd066d3a24a9dd6bc817a41a5839dd5beb3157fb9"
+    },
+    {
+      "path": "data/raw/rust__rayon-rs__rayon_dataset.jsonl",
+      "lang": "rust",
+      "rows": 2,
+      "bytes": 163860,
+      "sha256": "03dbe8d22c1b61eddf3b0f729426a1f9579e9efd80bfbecf6dd68f802c2b589d"
+    },
+    {
+      "path": "data/raw/rust__serde-rs__serde_dataset.jsonl",
+      "lang": "rust",
+      "rows": 2,
+      "bytes": 138138,
+      "sha256": "164ea8543f438b964c40e5e1cd09f5b82dc917aa5e4348b644d4b5e17e81142f"
+    },
+    {
+      "path": "data/raw/rust__sharkdp__bat_dataset.jsonl",
+      "lang": "rust",
+      "rows": 10,
+      "bytes": 610685,
+      "sha256": "5d2a10fd1adef574b8a21c41d2f1b7bcd904e40c7c0c563c3b92efea7b576348"
+    },
+    {
+      "path": "data/raw/rust__sharkdp__fd_dataset.jsonl",
+      "lang": "rust",
+      "rows": 14,
+      "bytes": 648192,
+      "sha256": "3e2b3862f7b17a39aa27bf03458d27204af0a5e72c71f1e6e19b2bdd52ef45ea"
+    },
+    {
+      "path": "data/raw/rust__tokio-rs__bytes_dataset.jsonl",
+      "lang": "rust",
+      "rows": 5,
+      "bytes": 143947,
+      "sha256": "9516b916eb11556a27a62d79296829c821b19873fea0a9f8f02d52c043f855a0"
+    },
+    {
+      "path": "data/raw/rust__tokio-rs__tokio_dataset.jsonl",
+      "lang": "rust",
+      "rows": 25,
+      "bytes": 2293852,
+      "sha256": "464a3597fe21ea64a6e62d38535aa31895939d63619bf2a695050b67d4ff56bf"
+    },
+    {
+      "path": "data/raw/rust__tokio-rs__tracing_dataset.jsonl",
+      "lang": "rust",
+      "rows": 21,
+      "bytes": 2244688,
+      "sha256": "b392ef573d20e1d96c0fbc6695779db104649fbd4a3002bb210264e61ac9a63a"
+    },
+    {
+      "path": "data/raw/ts__darkreader__darkreader_dataset.jsonl",
+      "lang": "ts",
+      "rows": 2,
+      "bytes": 38899,
+      "sha256": "350ddd200d2774be699d72062b356a9ceecdf38c3f9ab72e1ece3887626a93a8"
+    },
+    {
+      "path": "data/raw/ts__vuejs__core_dataset.jsonl",
+      "lang": "ts",
+      "rows": 48,
+      "bytes": 73660728,
+      "sha256": "10365ee2414d80b0985a1fda64588c06e260646b7f90b916551d0bfd00203b30"
+    }
+  ]
+}

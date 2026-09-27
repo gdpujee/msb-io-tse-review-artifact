@@ -1,0 +1,375 @@
+{
+  "n_instances": 1791,
+  "token_bounds": [
+    89.5,
+    155.0,
+    269.0
+  ],
+  "candidate_bounds": [
+    146.0,
+    264.0,
+    509.5
+  ],
+  "rows": [
+    {
+      "stratum": "query tokens Q1 (min\u201389)",
+      "method": "bm25",
+      "n": 448,
+      "hit@1": 0.43080357142857145,
+      "hit@10": 0.8549107142857143,
+      "mrr": 0.5664691076312183
+    },
+    {
+      "stratum": "query tokens Q1 (min\u201389)",
+      "method": "anchor_path_only",
+      "n": 448,
+      "hit@1": 0.45089285714285715,
+      "hit@10": 0.8638392857142857,
+      "mrr": 0.5832721030229233
+    },
+    {
+      "stratum": "query tokens Q1 (min\u201389)",
+      "method": "bm25_graph",
+      "n": 448,
+      "hit@1": 0.2857142857142857,
+      "hit@10": 0.7433035714285714,
+      "mrr": 0.4305547315589288
+    },
+    {
+      "stratum": "candidate files Q1 (min\u2013146)",
+      "method": "bm25",
+      "n": 454,
+      "hit@1": 0.44052863436123346,
+      "hit@10": 0.8942731277533039,
+      "mrr": 0.5925317246961438
+    },
+    {
+      "stratum": "candidate files Q1 (min\u2013146)",
+      "method": "anchor_path_only",
+      "n": 454,
+      "hit@1": 0.460352422907489,
+      "hit@10": 0.9008810572687225,
+      "mrr": 0.6102997830463366
+    },
+    {
+      "stratum": "candidate files Q1 (min\u2013146)",
+      "method": "bm25_graph",
+      "n": 454,
+      "hit@1": 0.3303964757709251,
+      "hit@10": 0.788546255506608,
+      "mrr": 0.4732802902001797
+    },
+    {
+      "stratum": "gold files = 2",
+      "method": "bm25",
+      "n": 351,
+      "hit@1": 0.3646723646723647,
+      "hit@10": 0.7806267806267806,
+      "mrr": 0.5006027302643229
+    },
+    {
+      "stratum": "gold files = 2",
+      "method": "anchor_path_only",
+      "n": 351,
+      "hit@1": 0.3903133903133903,
+      "hit@10": 0.8148148148148148,
+      "mrr": 0.5315060035972864
+    },
+    {
+      "stratum": "gold files = 2",
+      "method": "bm25_graph",
+      "n": 351,
+      "hit@1": 0.25071225071225073,
+      "hit@10": 0.717948717948718,
+      "mrr": 0.3944124329710139
+    },
+    {
+      "stratum": "explicit gold-path cue present",
+      "method": "bm25",
+      "n": 313,
+      "hit@1": 0.48242811501597443,
+      "hit@10": 0.8722044728434505,
+      "mrr": 0.6185610013251961
+    },
+    {
+      "stratum": "explicit gold-path cue present",
+      "method": "anchor_path_only",
+      "n": 313,
+      "hit@1": 0.7220447284345048,
+      "hit@10": 0.9712460063897763,
+      "mrr": 0.8241318992034968
+    },
+    {
+      "stratum": "explicit gold-path cue present",
+      "method": "bm25_graph",
+      "n": 313,
+      "hit@1": 0.26198083067092653,
+      "hit@10": 0.7412140575079872,
+      "mrr": 0.4216447840192891
+    },
+    {
+      "stratum": "query source = resolved_issues",
+      "method": "bm25",
+      "n": 1291,
+      "hit@1": 0.39504260263361735,
+      "hit@10": 0.8102246320681642,
+      "mrr": 0.5328532576330031
+    },
+    {
+      "stratum": "query source = resolved_issues",
+      "method": "anchor_path_only",
+      "n": 1291,
+      "hit@1": 0.4275755228505035,
+      "hit@10": 0.8272656855151046,
+      "mrr": 0.5626211070648011
+    },
+    {
+      "stratum": "query source = resolved_issues",
+      "method": "bm25_graph",
+      "n": 1291,
+      "hit@1": 0.2501936483346243,
+      "hit@10": 0.6777691711851278,
+      "mrr": 0.3895529068261063
+    },
+    {
+      "stratum": "query tokens Q4 (270\u2013max)",
+      "method": "bm25",
+      "n": 447,
+      "hit@1": 0.3825503355704698,
+      "hit@10": 0.7494407158836689,
+      "mrr": 0.5012366556135225
+    },
+    {
+      "stratum": "query tokens Q4 (270\u2013max)",
+      "method": "anchor_path_only",
+      "n": 447,
+      "hit@1": 0.41387024608501116,
+      "hit@10": 0.7829977628635347,
+      "mrr": 0.5406943682554849
+    },
+    {
+      "stratum": "query tokens Q4 (270\u2013max)",
+      "method": "bm25_graph",
+      "n": 447,
+      "hit@1": 0.21029082774049218,
+      "hit@10": 0.6263982102908278,
+      "mrr": 0.33681222633429514
+    },
+    {
+      "stratum": "query tokens Q3 (156\u2013269)",
+      "method": "bm25",
+      "n": 443,
+      "hit@1": 0.40857787810383744,
+      "hit@10": 0.8194130925507901,
+      "mrr": 0.5393540095334497
+    },
+    {
+      "stratum": "query tokens Q3 (156\u2013269)",
+      "method": "anchor_path_only",
+      "n": 443,
+      "hit@1": 0.4650112866817156,
+      "hit@10": 0.8148984198645598,
+      "mrr": 0.5807110332632027
+    },
+    {
+      "stratum": "query tokens Q3 (156\u2013269)",
+      "method": "bm25_graph",
+      "n": 443,
+      "hit@1": 0.2054176072234763,
+      "hit@10": 0.6772009029345373,
+      "mrr": 0.36804122570751924
+    },
+    {
+      "stratum": "gold files = 1",
+      "method": "bm25",
+      "n": 953,
+      "hit@1": 0.4260230849947534,
+      "hit@10": 0.8153200419727177,
+      "mrr": 0.5510437043696089
+    },
+    {
+      "stratum": "gold files = 1",
+      "method": "anchor_path_only",
+      "n": 953,
+      "hit@1": 0.4522560335781742,
+      "hit@10": 0.8142707240293809,
+      "mrr": 0.5729757486866724
+    },
+    {
+      "stratum": "gold files = 1",
+      "method": "bm25_graph",
+      "n": 953,
+      "hit@1": 0.18992654774396642,
+      "hit@10": 0.6537250786988458,
+      "mrr": 0.33622910793310407
+    },
+    {
+      "stratum": "explicit gold-path cue absent",
+      "method": "bm25",
+      "n": 1478,
+      "hit@1": 0.39039242219215153,
+      "hit@10": 0.8051420838971584,
+      "mrr": 0.5240141012716186
+    },
+    {
+      "stratum": "explicit gold-path cue absent",
+      "method": "anchor_path_only",
+      "n": 1478,
+      "hit@1": 0.3761840324763194,
+      "hit@10": 0.7949932341001353,
+      "mrr": 0.5129390665592135
+    },
+    {
+      "stratum": "explicit gold-path cue absent",
+      "method": "bm25_graph",
+      "n": 1478,
+      "hit@1": 0.2422192151556157,
+      "hit@10": 0.6887686062246279,
+      "mrr": 0.38385773720725097
+    },
+    {
+      "stratum": "candidate files Q2 (147\u2013264)",
+      "method": "bm25",
+      "n": 447,
+      "hit@1": 0.3825503355704698,
+      "hit@10": 0.767337807606264,
+      "mrr": 0.5090279845330186
+    },
+    {
+      "stratum": "candidate files Q2 (147\u2013264)",
+      "method": "anchor_path_only",
+      "n": 447,
+      "hit@1": 0.3959731543624161,
+      "hit@10": 0.7807606263982103,
+      "mrr": 0.5267551957199227
+    },
+    {
+      "stratum": "candidate files Q2 (147\u2013264)",
+      "method": "bm25_graph",
+      "n": 447,
+      "hit@1": 0.21029082774049218,
+      "hit@10": 0.6263982102908278,
+      "mrr": 0.3505461827070127
+    },
+    {
+      "stratum": "gold files >= 3",
+      "method": "bm25",
+      "n": 487,
+      "hit@1": 0.39835728952772076,
+      "hit@10": 0.8459958932238193,
+      "mrr": 0.5487602187006657
+    },
+    {
+      "stratum": "gold files >= 3",
+      "method": "anchor_path_only",
+      "n": 487,
+      "hit@1": 0.4394250513347023,
+      "hit@10": 0.8562628336755647,
+      "mrr": 0.5820795257991083
+    },
+    {
+      "stratum": "gold files >= 3",
+      "method": "bm25_graph",
+      "n": 487,
+      "hit@1": 0.351129363449692,
+      "hit@10": 0.7700205338809035,
+      "mrr": 0.493740142006736
+    },
+    {
+      "stratum": "query tokens Q2 (90\u2013155)",
+      "method": "bm25",
+      "n": 453,
+      "hit@1": 0.40397350993377484,
+      "hit@10": 0.8432671081677704,
+      "mrr": 0.5548292794545038
+    },
+    {
+      "stratum": "query tokens Q2 (90\u2013155)",
+      "method": "anchor_path_only",
+      "n": 453,
+      "hit@1": 0.41721854304635764,
+      "hit@10": 0.8410596026490066,
+      "mrr": 0.5647372016007545
+    },
+    {
+      "stratum": "query tokens Q2 (90\u2013155)",
+      "method": "bm25_graph",
+      "n": 453,
+      "hit@1": 0.2803532008830022,
+      "hit@10": 0.7439293598233996,
+      "mrr": 0.42567484567791036
+    },
+    {
+      "stratum": "candidate files Q3 (265\u2013509)",
+      "method": "bm25",
+      "n": 442,
+      "hit@1": 0.4004524886877828,
+      "hit@10": 0.8054298642533937,
+      "mrr": 0.5296531794634115
+    },
+    {
+      "stratum": "candidate files Q3 (265\u2013509)",
+      "method": "anchor_path_only",
+      "n": 442,
+      "hit@1": 0.45248868778280543,
+      "hit@10": 0.8280542986425339,
+      "mrr": 0.5724843518335794
+    },
+    {
+      "stratum": "candidate files Q3 (265\u2013509)",
+      "method": "bm25_graph",
+      "n": 442,
+      "hit@1": 0.17647058823529413,
+      "hit@10": 0.6199095022624435,
+      "mrr": 0.3172522191881593
+    },
+    {
+      "stratum": "candidate files Q4 (510\u2013max)",
+      "method": "bm25",
+      "n": 448,
+      "hit@1": 0.4017857142857143,
+      "hit@10": 0.7991071428571429,
+      "mrr": 0.5300241465917462
+    },
+    {
+      "stratum": "candidate files Q4 (510\u2013max)",
+      "method": "anchor_path_only",
+      "n": 448,
+      "hit@1": 0.4375,
+      "hit@10": 0.7924107142857143,
+      "mrr": 0.5591595252788566
+    },
+    {
+      "stratum": "candidate files Q4 (510\u2013max)",
+      "method": "bm25_graph",
+      "n": 448,
+      "hit@1": 0.26339285714285715,
+      "hit@10": 0.7544642857142857,
+      "mrr": 0.41858856403632094
+    },
+    {
+      "stratum": "query source = problem_statement",
+      "method": "bm25",
+      "n": 500,
+      "hit@1": 0.436,
+      "hit@10": 0.834,
+      "mrr": 0.5603777589800636
+    },
+    {
+      "stratum": "query source = problem_statement",
+      "method": "anchor_path_only",
+      "n": 500,
+      "hit@1": 0.46,
+      "hit@10": 0.822,
+      "mrr": 0.5794667512091078
+    },
+    {
+      "stratum": "query source = problem_statement",
+      "method": "bm25_graph",
+      "n": 500,
+      "hit@1": 0.234,
+      "hit@10": 0.75,
+      "mrr": 0.39280750055570235
+    }
+  ]
+}

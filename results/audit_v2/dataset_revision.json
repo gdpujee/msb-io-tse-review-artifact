@@ -1,0 +1,495 @@
+{
+  "status": "VERIFIED",
+  "dataset_id": "ByteDance-Seed/Multi-SWE-bench",
+  "revision": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+  "upstream_head_at_audit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+  "upstream_last_modified": "2026-07-08T03:38:12.000Z",
+  "retrieved_api_at": "2026-09-14",
+  "upstream_card_license_tag": "other",
+  "local_scope": {
+    "included_files": 46,
+    "omitted_files": [
+      {
+        "path": "js/sveltejs__svelte_dataset.jsonl",
+        "reason": "predeclared large-file exclusion",
+        "reported_mb": 503.2
+      },
+      {
+        "path": "ts/mui__material-ui_dataset.jsonl",
+        "reason": "predeclared large-file exclusion",
+        "reported_mb": 749.8
+      }
+    ],
+    "selection": "all configured files except two predeclared large-file exclusions"
+  },
+  "counts": {
+    "MATCH": 46
+  },
+  "files": [
+    {
+      "path": "c/facebook__zstd_dataset.jsonl",
+      "local_path": "data/raw/c__facebook__zstd_dataset.jsonl",
+      "bytes": 677646,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "778933d67c8a091627d9fca7003d4042c137e110",
+      "remote_digest": "778933d67c8a091627d9fca7003d4042c137e110",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "c/jqlang__jq_dataset.jsonl",
+      "local_path": "data/raw/c__jqlang__jq_dataset.jsonl",
+      "bytes": 148809,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "e5648629616c7ff5b319954202aa1db6d89fd7c5",
+      "remote_digest": "e5648629616c7ff5b319954202aa1db6d89fd7c5",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "c/ponylang__ponyc_dataset.jsonl",
+      "local_path": "data/raw/c__ponylang__ponyc_dataset.jsonl",
+      "bytes": 26444998,
+      "algorithm": "sha256",
+      "local_digest": "cddd6e471bd8a1ad9e9971d8a16ca5a0e9f002789cefc5a40ee025f8875122ee",
+      "remote_digest": "cddd6e471bd8a1ad9e9971d8a16ca5a0e9f002789cefc5a40ee025f8875122ee",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "cpp/catchorg__Catch2_dataset.jsonl",
+      "local_path": "data/raw/cpp__catchorg__Catch2_dataset.jsonl",
+      "bytes": 698675,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "8145e4cc6eff4dad5db9530814b62855962d6d1d",
+      "remote_digest": "8145e4cc6eff4dad5db9530814b62855962d6d1d",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "cpp/fmtlib__fmt_dataset.jsonl",
+      "local_path": "data/raw/cpp__fmtlib__fmt_dataset.jsonl",
+      "bytes": 375788,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "b660726d4edf6bec9d6b9e9ef598852c42df0ca4",
+      "remote_digest": "b660726d4edf6bec9d6b9e9ef598852c42df0ca4",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "cpp/nlohmann__json_dataset.jsonl",
+      "local_path": "data/raw/cpp__nlohmann__json_dataset.jsonl",
+      "bytes": 4019513,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "5a5bd0ae89dff95b16ce879daf49a0d14c6f7732",
+      "remote_digest": "5a5bd0ae89dff95b16ce879daf49a0d14c6f7732",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "cpp/simdjson__simdjson_dataset.jsonl",
+      "local_path": "data/raw/cpp__simdjson__simdjson_dataset.jsonl",
+      "bytes": 1506793,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "28cb1761398d68926ec4041f97070160c60f84db",
+      "remote_digest": "28cb1761398d68926ec4041f97070160c60f84db",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "cpp/yhirose__cpp-httplib_dataset.jsonl",
+      "local_path": "data/raw/cpp__yhirose__cpp-httplib_dataset.jsonl",
+      "bytes": 60772,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "6b2dd554bdf594e38f878f0195c491adbe25649f",
+      "remote_digest": "6b2dd554bdf594e38f878f0195c491adbe25649f",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "go/cli__cli_dataset.jsonl",
+      "local_path": "data/raw/go__cli__cli_dataset.jsonl",
+      "bytes": 167907603,
+      "algorithm": "sha256",
+      "local_digest": "18abaac48227bf15a64bcf649a4fcdb34ea8148962f371241ea2bb91608cf4b1",
+      "remote_digest": "18abaac48227bf15a64bcf649a4fcdb34ea8148962f371241ea2bb91608cf4b1",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "go/grpc__grpc-go_dataset.jsonl",
+      "local_path": "data/raw/go__grpc__grpc-go_dataset.jsonl",
+      "bytes": 864342,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "8120a559a1d9050b939cab94aa7bfce2a52179ee",
+      "remote_digest": "8120a559a1d9050b939cab94aa7bfce2a52179ee",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "go/zeromicro__go-zero_dataset.jsonl",
+      "local_path": "data/raw/go__zeromicro__go-zero_dataset.jsonl",
+      "bytes": 3438426,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "a68a8e0b507cb951f0c87a17515d8614cd26c6b0",
+      "remote_digest": "a68a8e0b507cb951f0c87a17515d8614cd26c6b0",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "java/alibaba__fastjson2_dataset.jsonl",
+      "local_path": "data/raw/java__alibaba__fastjson2_dataset.jsonl",
+      "bytes": 3658853,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "3e78ea23da0229cd37878334ba28d91915e3f0e0",
+      "remote_digest": "3e78ea23da0229cd37878334ba28d91915e3f0e0",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "java/apache__dubbo_dataset.jsonl",
+      "local_path": "data/raw/java__apache__dubbo_dataset.jsonl",
+      "bytes": 376821,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "ea813f36abeaf1e8fc99490ef0986c3cbee7a974",
+      "remote_digest": "ea813f36abeaf1e8fc99490ef0986c3cbee7a974",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "java/elastic__logstash_dataset.jsonl",
+      "local_path": "data/raw/java__elastic__logstash_dataset.jsonl",
+      "bytes": 12174447,
+      "algorithm": "sha256",
+      "local_digest": "e3bd997cdedacc450f9c079bcdd81f287c7260f27f211fd8de7bf63af3d09e98",
+      "remote_digest": "e3bd997cdedacc450f9c079bcdd81f287c7260f27f211fd8de7bf63af3d09e98",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "java/fasterxml__jackson-core_dataset.jsonl",
+      "local_path": "data/raw/java__fasterxml__jackson-core_dataset.jsonl",
+      "bytes": 967999,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "7a37489c45c90c7450afb7f1effc80ec111ce5c6",
+      "remote_digest": "7a37489c45c90c7450afb7f1effc80ec111ce5c6",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "java/fasterxml__jackson-databind_dataset.jsonl",
+      "local_path": "data/raw/java__fasterxml__jackson-databind_dataset.jsonl",
+      "bytes": 8412746,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "b4061772e8d6dc8eda9e76d7976af88f02f5cf7e",
+      "remote_digest": "b4061772e8d6dc8eda9e76d7976af88f02f5cf7e",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "java/fasterxml__jackson-dataformat-xml_dataset.jsonl",
+      "local_path": "data/raw/java__fasterxml__jackson-dataformat-xml_dataset.jsonl",
+      "bytes": 279932,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "68f4528317296eee59a5d0d75a859bcc54a0a48b",
+      "remote_digest": "68f4528317296eee59a5d0d75a859bcc54a0a48b",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "java/google__gson_dataset.jsonl",
+      "local_path": "data/raw/java__google__gson_dataset.jsonl",
+      "bytes": 122857,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "8683ce6d91b7d916f799bfe1d9a4a40d19f31970",
+      "remote_digest": "8683ce6d91b7d916f799bfe1d9a4a40d19f31970",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "java/googlecontainertools__jib_dataset.jsonl",
+      "local_path": "data/raw/java__googlecontainertools__jib_dataset.jsonl",
+      "bytes": 135084,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "cc01812133fad16d7bf6a137cd493a6bebc43681",
+      "remote_digest": "cc01812133fad16d7bf6a137cd493a6bebc43681",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "java/mockito__mockito_dataset.jsonl",
+      "local_path": "data/raw/java__mockito__mockito_dataset.jsonl",
+      "bytes": 255347,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "3e7c689c8192b194a264cc3bb554d9716623a88a",
+      "remote_digest": "3e7c689c8192b194a264cc3bb554d9716623a88a",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "js/Kong__insomnia_dataset.jsonl",
+      "local_path": "data/raw/js__Kong__insomnia_dataset.jsonl",
+      "bytes": 64765,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "3d123cdf33c3b5afc7b284a6226d0982847a2055",
+      "remote_digest": "3d123cdf33c3b5afc7b284a6226d0982847a2055",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "js/anuraghazra__github-readme-stats_dataset.jsonl",
+      "local_path": "data/raw/js__anuraghazra__github-readme-stats_dataset.jsonl",
+      "bytes": 1003324,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "f40e9abb8f3737d5982b4ab8969036ed239bdab5",
+      "remote_digest": "f40e9abb8f3737d5982b4ab8969036ed239bdab5",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "js/axios__axios_dataset.jsonl",
+      "local_path": "data/raw/js__axios__axios_dataset.jsonl",
+      "bytes": 151870,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "d19999a3b6070d4c6b3950c122e458d844d265fa",
+      "remote_digest": "d19999a3b6070d4c6b3950c122e458d844d265fa",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "js/expressjs__express_dataset.jsonl",
+      "local_path": "data/raw/js__expressjs__express_dataset.jsonl",
+      "bytes": 995502,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "a5ebbb9a124738b0fb3c21d6e04c839cdce6c017",
+      "remote_digest": "a5ebbb9a124738b0fb3c21d6e04c839cdce6c017",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "js/iamkun__dayjs_dataset.jsonl",
+      "local_path": "data/raw/js__iamkun__dayjs_dataset.jsonl",
+      "bytes": 954834,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "ed49ace984f9c2c94e2f1328007c0d290512aa1e",
+      "remote_digest": "ed49ace984f9c2c94e2f1328007c0d290512aa1e",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "kotlin/GradleUp__shadow_dataset.jsonl",
+      "local_path": "data/raw/kotlin__GradleUp__shadow_dataset.jsonl",
+      "bytes": 34371,
+      "algorithm": "sha256",
+      "local_digest": "0b4401c7d5b86a05538085b910ce862dfad978363af34fb09be901df5d6f0c3e",
+      "remote_digest": "0b4401c7d5b86a05538085b910ce862dfad978363af34fb09be901df5d6f0c3e",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "kotlin/Hannah-Sten__TeXiFy-IDEA_dataset.jsonl",
+      "local_path": "data/raw/kotlin__Hannah-Sten__TeXiFy-IDEA_dataset.jsonl",
+      "bytes": 2877464,
+      "algorithm": "sha256",
+      "local_digest": "e79608344483a7a806a5039e3a54ae76c4578c96b23aa12b6b774244f11b4380",
+      "remote_digest": "e79608344483a7a806a5039e3a54ae76c4578c96b23aa12b6b774244f11b4380",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "kotlin/Kotlin__dataframe_dataset.jsonl",
+      "local_path": "data/raw/kotlin__Kotlin__dataframe_dataset.jsonl",
+      "bytes": 3359415,
+      "algorithm": "sha256",
+      "local_digest": "e4a6f80e16bc65b6ea55c28729228f8631007f9b549dc1ff2671ea5c8874a8ca",
+      "remote_digest": "e4a6f80e16bc65b6ea55c28729228f8631007f9b549dc1ff2671ea5c8874a8ca",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "kotlin/ankidroid__Anki-Android_dataset.jsonl",
+      "local_path": "data/raw/kotlin__ankidroid__Anki-Android_dataset.jsonl",
+      "bytes": 2462289,
+      "algorithm": "sha256",
+      "local_digest": "9426e981a7c8e3ca0988b4d1865925fbfc8d28b134c4625ecf9a9eee3009f32b",
+      "remote_digest": "9426e981a7c8e3ca0988b4d1865925fbfc8d28b134c4625ecf9a9eee3009f32b",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "kotlin/detekt__detekt_dataset.jsonl",
+      "local_path": "data/raw/kotlin__detekt__detekt_dataset.jsonl",
+      "bytes": 68859690,
+      "algorithm": "sha256",
+      "local_digest": "053a79656e6483c982acd427ffca95321bc81512a8149eda364464c76eaf3c6e",
+      "remote_digest": "053a79656e6483c982acd427ffca95321bc81512a8149eda364464c76eaf3c6e",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "kotlin/oss-review-toolkit__ort_dataset.jsonl",
+      "local_path": "data/raw/kotlin__oss-review-toolkit__ort_dataset.jsonl",
+      "bytes": 12238927,
+      "algorithm": "sha256",
+      "local_digest": "68ec384a0dc72b119dc92bcd30ea5dc302c3680060a5205b633d3fe28970da36",
+      "remote_digest": "68ec384a0dc72b119dc92bcd30ea5dc302c3680060a5205b633d3fe28970da36",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "kotlin/pinterest__ktlint_dataset.jsonl",
+      "local_path": "data/raw/kotlin__pinterest__ktlint_dataset.jsonl",
+      "bytes": 70433294,
+      "algorithm": "sha256",
+      "local_digest": "d7e755c123188078cc414bd8afcff360698558fb84564ffb5d5e6b5b53567ab5",
+      "remote_digest": "d7e755c123188078cc414bd8afcff360698558fb84564ffb5d5e6b5b53567ab5",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "kotlin/square__okhttp_dataset.jsonl",
+      "local_path": "data/raw/kotlin__square__okhttp_dataset.jsonl",
+      "bytes": 816039,
+      "algorithm": "sha256",
+      "local_digest": "068cdcf7946a147098518383cb9c97557e35e63a8bdd9330d0196bdb97ddc01d",
+      "remote_digest": "068cdcf7946a147098518383cb9c97557e35e63a8bdd9330d0196bdb97ddc01d",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "python/multi_swe_bench_python.jsonl",
+      "local_path": "data/raw/python__multi_swe_bench_python.jsonl",
+      "bytes": 31418564,
+      "algorithm": "sha256",
+      "local_digest": "ce3aa6e39145618cab6f2af03bf7fd98a3b6c16f7afea13e7afbcf57a3e8befe",
+      "remote_digest": "ce3aa6e39145618cab6f2af03bf7fd98a3b6c16f7afea13e7afbcf57a3e8befe",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "rust/BurntSushi__ripgrep_dataset.jsonl",
+      "local_path": "data/raw/rust__BurntSushi__ripgrep_dataset.jsonl",
+      "bytes": 1583497,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "f3eb1a65f91c4737477e4b335ccbdd471e9469f2",
+      "remote_digest": "f3eb1a65f91c4737477e4b335ccbdd471e9469f2",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "rust/clap-rs__clap_dataset.jsonl",
+      "local_path": "data/raw/rust__clap-rs__clap_dataset.jsonl",
+      "bytes": 28813289,
+      "algorithm": "sha256",
+      "local_digest": "098ea3afa5700cb67e3a27e859bdcce18f4468e373172254155862c313f9cf32",
+      "remote_digest": "098ea3afa5700cb67e3a27e859bdcce18f4468e373172254155862c313f9cf32",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "rust/nushell__nushell_dataset.jsonl",
+      "local_path": "data/raw/rust__nushell__nushell_dataset.jsonl",
+      "bytes": 4503595,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "d960b6561332f1e853c4ce15393fff4b3f754b75",
+      "remote_digest": "d960b6561332f1e853c4ce15393fff4b3f754b75",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "rust/rayon-rs__rayon_dataset.jsonl",
+      "local_path": "data/raw/rust__rayon-rs__rayon_dataset.jsonl",
+      "bytes": 163860,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "fcce0ba5772c34e91fc65f7d6a37650557132627",
+      "remote_digest": "fcce0ba5772c34e91fc65f7d6a37650557132627",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "rust/serde-rs__serde_dataset.jsonl",
+      "local_path": "data/raw/rust__serde-rs__serde_dataset.jsonl",
+      "bytes": 138138,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "f59fbbee8d1b58f22b82541f71921c85719507bf",
+      "remote_digest": "f59fbbee8d1b58f22b82541f71921c85719507bf",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "rust/sharkdp__bat_dataset.jsonl",
+      "local_path": "data/raw/rust__sharkdp__bat_dataset.jsonl",
+      "bytes": 610685,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "5355f5b1fbc743a14ffb4914aa4743cd9e644c10",
+      "remote_digest": "5355f5b1fbc743a14ffb4914aa4743cd9e644c10",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "rust/sharkdp__fd_dataset.jsonl",
+      "local_path": "data/raw/rust__sharkdp__fd_dataset.jsonl",
+      "bytes": 648192,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "08e3e4cec4c2084554f2a76c4b36df41282d1e9c",
+      "remote_digest": "08e3e4cec4c2084554f2a76c4b36df41282d1e9c",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "rust/tokio-rs__bytes_dataset.jsonl",
+      "local_path": "data/raw/rust__tokio-rs__bytes_dataset.jsonl",
+      "bytes": 143947,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "58dffb169d2cc61a71488bc27847af58c3033036",
+      "remote_digest": "58dffb169d2cc61a71488bc27847af58c3033036",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "rust/tokio-rs__tokio_dataset.jsonl",
+      "local_path": "data/raw/rust__tokio-rs__tokio_dataset.jsonl",
+      "bytes": 2293852,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "b534cc0d67470c21fc242f821233b9c3e09731b8",
+      "remote_digest": "b534cc0d67470c21fc242f821233b9c3e09731b8",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "rust/tokio-rs__tracing_dataset.jsonl",
+      "local_path": "data/raw/rust__tokio-rs__tracing_dataset.jsonl",
+      "bytes": 2244688,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "95f77f1157c11adf2a3e244a5a679eb089369d94",
+      "remote_digest": "95f77f1157c11adf2a3e244a5a679eb089369d94",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "ts/darkreader__darkreader_dataset.jsonl",
+      "local_path": "data/raw/ts__darkreader__darkreader_dataset.jsonl",
+      "bytes": 38899,
+      "algorithm": "git_blob_sha1",
+      "local_digest": "5372fa046d1400b7a03008f3c2f2a684152ec9a7",
+      "remote_digest": "5372fa046d1400b7a03008f3c2f2a684152ec9a7",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    },
+    {
+      "path": "ts/vuejs__core_dataset.jsonl",
+      "local_path": "data/raw/ts__vuejs__core_dataset.jsonl",
+      "bytes": 73660728,
+      "algorithm": "sha256",
+      "local_digest": "10365ee2414d80b0985a1fda64588c06e260646b7f90b916551d0bfd00203b30",
+      "remote_digest": "10365ee2414d80b0985a1fda64588c06e260646b7f90b916551d0bfd00203b30",
+      "repo_commit": "56ff018c04a38e27ada1e9d0a6d5839a51f88f0d",
+      "status": "MATCH"
+    }
+  ],
+  "notes": [
+    "The snapshot extends the original seven-language release with Kotlin and Python.",
+    "The local benchmark is therefore named the 9-language extended snapshot, not the original release.",
+    "The dataset card uses license:other; underlying repository licenses must also be respected."
+  ]
+}
