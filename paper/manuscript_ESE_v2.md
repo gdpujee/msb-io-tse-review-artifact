@@ -439,7 +439,7 @@ Generative AI systems (specifically gpt-6-sol, gpt-6-astra, and gemini-3.8-flash
 
 ## Declarations
 
-**Data and code availability.** A versioned reviewer artifact containing the pinned dataset revision, query strings and SHA-256 hashes, eight configurations, 14,328 result rows, analysis and verification scripts, figures, and a file-level SHA-256 manifest is publicly accessible at https://github.com/gdpu11/msb-io-tse-review-artifact. Repository source, local indexes, and model weights are not redistributed; the artifact provides scripts to reconstruct them from pinned upstream sources. An archival DOI can be added after deposition.
+**Data and code availability.** A versioned reviewer artifact containing the pinned dataset revision, query strings and SHA-256 hashes, eight configurations, 14,328 result rows, analysis and verification scripts, figures, and a file-level SHA-256 manifest is publicly accessible at https://github.com/gdpujee/msb-io-tse-review-artifact. Repository source, local indexes, and model weights are not redistributed; the artifact provides scripts to reconstruct them from pinned upstream sources. An archival DOI can be added after deposition.
 
 **Funding.** This research was self-funded by the authors and received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
 
