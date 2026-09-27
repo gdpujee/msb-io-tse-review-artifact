@@ -1,7 +1,6 @@
 /data/
 /.hf_cache/
 /results/logs*/
-/reproduction_package.zip
 __pycache__/
 *.pyc
 .DS_Store

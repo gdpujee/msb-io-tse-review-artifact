@@ -11,6 +11,7 @@ This repository is the versioned empirical artifact for “When the Answer Is in
 - experiments/ and tests/: analysis, verification, query construction, evaluation, and figure scripts.
 - paper/manuscript_ESE_v2.md: manuscript source needed for the number auditor.
 - SHA256SUMS: manifest for every other file in this curated repository.
+- reproduction_package.zip and ARTIFACT_MANIFEST.sha256: deterministic archive of the same reviewer-safe scientific files, built by experiments/build_artifact.py --verify.
 
 ## Check the supplied evidence
 
@@ -18,7 +19,7 @@ Use Python 3.13 with the pinned dependencies. From the repository root:
 
     python -m pip install -r requirements-lock.txt
     shasum -a 256 -c SHA256SUMS
-    python verify_supplied_snapshot.py
+    python experiments/verify_supplied_snapshot.py
     python experiments/audit_manuscript_v2.py
     python experiments/verify_contrast_v2.py
 

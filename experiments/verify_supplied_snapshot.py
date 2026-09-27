@@ -7,7 +7,7 @@ import json
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 METHODS = {
     "bm25", "bm25_path", "anchor_path_only", "anchor_symbol_only",
     "bm25_anchor", "bm25_graph", "bm25_anchor_graph", "anchor_path_graph",
