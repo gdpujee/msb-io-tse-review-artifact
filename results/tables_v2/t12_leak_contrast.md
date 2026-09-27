@@ -7,7 +7,7 @@ differs. Delta is treatment minus control.
 
 ## bm25
 
-| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | p_repo_Holm | rank-biserial |
+| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | raw p_repo | rank-biserial |
 |---|---|---:|---:|---:|---:|---|---:|---:|
 | all | hit@1 | 1791 | 0.4065 | 0.4210 | +0.0145 | [-0.0043, 0.0338] | 0.0382343 | +0.1940 |
 | all | hit@10 | 1791 | 0.8169 | 0.8241 | +0.0073 | [0.0006, 0.017] | 0.0372359 | +0.2000 |
@@ -24,7 +24,7 @@ differs. Delta is treatment minus control.
 
 ## bm25_path
 
-| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | p_repo_Holm | rank-biserial |
+| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | raw p_repo | rank-biserial |
 |---|---|---:|---:|---:|---:|---|---:|---:|
 | all | hit@1 | 1791 | 0.4098 | 0.4260 | +0.0162 | [-0.0027, 0.0357] | 0.034079 | +0.2148 |
 | all | hit@10 | 1791 | 0.8174 | 0.8247 | +0.0073 | [-0.0006, 0.0178] | 0.0629117 | +0.1940 |
@@ -41,7 +41,7 @@ differs. Delta is treatment minus control.
 
 ## anchor_path_only
 
-| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | p_repo_Holm | rank-biserial |
+| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | raw p_repo | rank-biserial |
 |---|---|---:|---:|---:|---:|---|---:|---:|
 | all | hit@1 | 1791 | 0.4366 | 0.4511 | +0.0145 | [-0.0041, 0.0345] | 0.115475 | +0.1912 |
 | all | hit@10 | 1791 | 0.8258 | 0.8342 | +0.0084 | [0.0021, 0.0179] | 0.0228948 | +0.2308 |
@@ -58,7 +58,7 @@ differs. Delta is treatment minus control.
 
 ## anchor_symbol_only
 
-| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | p_repo_Holm | rank-biserial |
+| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | raw p_repo | rank-biserial |
 |---|---|---:|---:|---:|---:|---|---:|---:|
 | all | hit@1 | 1791 | 0.3629 | 0.3836 | +0.0207 | [0.0, 0.0431] | 0.142706 | +0.2913 |
 | all | hit@10 | 1791 | 0.7968 | 0.8102 | +0.0134 | [0.0054, 0.0273] | 0.0363476 | +0.3529 |
@@ -75,7 +75,7 @@ differs. Delta is treatment minus control.
 
 ## bm25_anchor
 
-| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | p_repo_Holm | rank-biserial |
+| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | raw p_repo | rank-biserial |
 |---|---|---:|---:|---:|---:|---|---:|---:|
 | all | hit@1 | 1791 | 0.4003 | 0.4243 | +0.0240 | [0.0027, 0.0448] | 0.305451 | +0.3007 |
 | all | hit@10 | 1791 | 0.8157 | 0.8291 | +0.0134 | [0.0052, 0.0272] | 0.0405997 | +0.3429 |
@@ -92,7 +92,7 @@ differs. Delta is treatment minus control.
 
 ## bm25_graph
 
-| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | p_repo_Holm | rank-biserial |
+| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | raw p_repo | rank-biserial |
 |---|---|---:|---:|---:|---:|---|---:|---:|
 | all | hit@1 | 1791 | 0.2457 | 0.2535 | +0.0078 | [-0.0145, 0.0247] | 0.112806 | +0.1148 |
 | all | hit@10 | 1791 | 0.6979 | 0.7063 | +0.0084 | [-0.0011, 0.0213] | 0.124079 | +0.1220 |
@@ -109,7 +109,7 @@ differs. Delta is treatment minus control.
 
 ## bm25_anchor_graph
 
-| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | p_repo_Holm | rank-biserial |
+| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | raw p_repo | rank-biserial |
 |---|---|---:|---:|---:|---:|---|---:|---:|
 | all | hit@1 | 1791 | 0.3322 | 0.3439 | +0.0117 | [-0.0075, 0.0276] | 0.0652988 | +0.1826 |
 | all | hit@10 | 1791 | 0.7666 | 0.7850 | +0.0184 | [0.0086, 0.0323] | 0.00333137 | +0.2973 |
@@ -126,7 +126,7 @@ differs. Delta is treatment minus control.
 
 ## anchor_path_graph
 
-| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | p_repo_Holm | rank-biserial |
+| stratum | metric | n | control | treatment | delta | repository-cluster 95% CI | raw p_repo | rank-biserial |
 |---|---|---:|---:|---:|---:|---|---:|---:|
 | all | hit@1 | 1791 | 0.3116 | 0.3272 | +0.0156 | [-0.0117, 0.0375] | 0.201222 | +0.2029 |
 | all | hit@10 | 1791 | 0.7365 | 0.7437 | +0.0073 | [-0.0023, 0.0191] | 0.24876 | +0.1130 |
@@ -143,7 +143,7 @@ differs. Delta is treatment minus control.
 
 ## bm25 Hit@1 by language
 
-| language | n | control | treatment | delta | CI | p_repo_Holm |
+| language | n | control | treatment | delta | CI | raw p_repo |
 |---|---:|---:|---:|---:|---|---:|
 | c | 128 | 0.2266 | 0.2734 | +0.0469 | [0.0122, 0.1176] | 0.25 |
 | cpp | 129 | 0.4961 | 0.5504 | +0.0543 | [0.0379, 0.0748] | 0.125 |

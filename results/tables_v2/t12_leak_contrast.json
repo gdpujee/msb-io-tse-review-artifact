@@ -38,13 +38,12 @@
         0.0338
       ],
       "p_instance": 0.030414804699519807,
-      "p_cluster": 0.038234317100676006,
-      "p_cluster_holm": 0.038234317100676006,
       "rank_biserial": 0.194,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.038234317100676006,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -64,13 +63,12 @@
         0.017
       ],
       "p_instance": 0.1360323948778921,
-      "p_cluster": 0.037235868977491954,
-      "p_cluster_holm": 0.037235868977491954,
       "rank_biserial": 0.2,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.037235868977491954,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -90,13 +88,12 @@
         0.0308
       ],
       "p_instance": 2.586475889424267e-10,
-      "p_cluster": 0.0008267573276319696,
-      "p_cluster_holm": 0.0008267573276319696,
       "rank_biserial": 0.292,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.0008267573276319696,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -116,13 +113,12 @@
         0.0262
       ],
       "p_instance": 3.1951900041439684e-19,
-      "p_cluster": 0.00022216596965950801,
-      "p_cluster_holm": 0.00022216596965950801,
       "rank_biserial": 0.3433,
       "effect": "medium",
-      "significant": true,
       "arm_method": "bm25",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.00022216596965950801,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -142,13 +138,12 @@
         0.0
       ],
       "p_instance": 0.5,
-      "p_cluster": 0.5,
-      "p_cluster_holm": 0.5,
       "rank_biserial": -1.0,
       "effect": "large",
-      "significant": false,
       "arm_method": "bm25",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.5,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -168,13 +163,12 @@
         0.0
       ],
       "p_instance": 1.0,
-      "p_cluster": 1.0,
-      "p_cluster_holm": 1.0,
       "rank_biserial": 0.0,
       "effect": "negligible",
-      "significant": false,
       "arm_method": "bm25",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 1.0,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -194,13 +188,12 @@
         0.0019
       ],
       "p_instance": 0.5074849540737435,
-      "p_cluster": 0.46875,
-      "p_cluster_holm": 0.46875,
       "rank_biserial": -0.1174,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.46875,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -220,13 +213,12 @@
         0.0019
       ],
       "p_instance": 0.06938207399585856,
-      "p_cluster": 0.30078125,
-      "p_cluster_holm": 0.30078125,
       "rank_biserial": -0.2652,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.30078125,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -246,13 +238,12 @@
         0.0504
       ],
       "p_instance": 0.018430571670380338,
-      "p_cluster": 0.0434558381430289,
-      "p_cluster_holm": 0.0434558381430289,
       "rank_biserial": 0.2121,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.0434558381430289,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -272,13 +263,12 @@
         0.0252
       ],
       "p_instance": 0.1360323948778921,
-      "p_cluster": 0.037235868977491954,
-      "p_cluster_holm": 0.037235868977491954,
       "rank_biserial": 0.2,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.037235868977491954,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -298,13 +288,12 @@
         0.0441
       ],
       "p_instance": 2.5896161647370023e-10,
-      "p_cluster": 0.001067690754961761,
-      "p_cluster_holm": 0.001067690754961761,
       "rank_biserial": 0.3023,
       "effect": "medium",
-      "significant": true,
       "arm_method": "bm25",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.001067690754961761,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -324,13 +313,12 @@
         0.0367
       ],
       "p_instance": 5.860023729769341e-20,
-      "p_cluster": 0.00029249095429667127,
-      "p_cluster_holm": 0.00029249095429667127,
       "rank_biserial": 0.363,
       "effect": "medium",
-      "significant": true,
       "arm_method": "bm25",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.00029249095429667127,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -350,13 +338,12 @@
         0.0357
       ],
       "p_instance": 0.015644196051848806,
-      "p_cluster": 0.03407900532069307,
-      "p_cluster_holm": 0.03407900532069307,
       "rank_biserial": 0.2148,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_path",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.03407900532069307,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -376,13 +363,12 @@
         0.0178
       ],
       "p_instance": 0.1420713794263756,
-      "p_cluster": 0.06291168338910778,
-      "p_cluster_holm": 0.06291168338910778,
       "rank_biserial": 0.194,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25_path",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.06291168338910778,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -402,13 +388,12 @@
         0.0318
       ],
       "p_instance": 4.864863287227217e-11,
-      "p_cluster": 0.0012717040335500551,
-      "p_cluster_holm": 0.0012717040335500551,
       "rank_biserial": 0.3025,
       "effect": "medium",
-      "significant": true,
       "arm_method": "bm25_path",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.0012717040335500551,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -428,13 +413,12 @@
         0.0267
       ],
       "p_instance": 9.003998702795409e-21,
-      "p_cluster": 0.0006368150576462072,
-      "p_cluster_holm": 0.0006368150576462072,
       "rank_biserial": 0.3589,
       "effect": "medium",
-      "significant": true,
       "arm_method": "bm25_path",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.0006368150576462072,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -454,13 +438,12 @@
         0.0
       ],
       "p_instance": 0.625,
-      "p_cluster": 0.5,
-      "p_cluster_holm": 0.5,
       "rank_biserial": -0.5,
       "effect": "large",
-      "significant": false,
       "arm_method": "bm25_path",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.5,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -480,13 +463,12 @@
         0.0
       ],
       "p_instance": 1.0,
-      "p_cluster": 1.0,
-      "p_cluster_holm": 1.0,
       "rank_biserial": 0.0,
       "effect": "negligible",
-      "significant": false,
       "arm_method": "bm25_path",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 1.0,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -506,13 +488,12 @@
         0.0
       ],
       "p_instance": 0.2081451092157276,
-      "p_cluster": 0.296875,
-      "p_cluster_holm": 0.296875,
       "rank_biserial": -0.2155,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25_path",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.296875,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -532,13 +513,12 @@
         0.0001
       ],
       "p_instance": 0.030433720883441626,
-      "p_cluster": 0.3125,
-      "p_cluster_holm": 0.3125,
       "rank_biserial": -0.3213,
       "effect": "medium",
-      "significant": false,
       "arm_method": "bm25_path",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.3125,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -558,13 +538,12 @@
         0.0542
       ],
       "p_instance": 0.008511369817291864,
-      "p_cluster": 0.027922983546152483,
-      "p_cluster_holm": 0.027922983546152483,
       "rank_biserial": 0.2366,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_path",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.027922983546152483,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -584,13 +563,12 @@
         0.0264
       ],
       "p_instance": 0.1420713794263756,
-      "p_cluster": 0.06291168338910778,
-      "p_cluster_holm": 0.06291168338910778,
       "rank_biserial": 0.194,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25_path",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.06291168338910778,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -610,13 +588,12 @@
         0.0462
       ],
       "p_instance": 2.0704550425403382e-11,
-      "p_cluster": 0.001064151683628175,
-      "p_cluster_holm": 0.001064151683628175,
       "rank_biserial": 0.3199,
       "effect": "medium",
-      "significant": true,
       "arm_method": "bm25_path",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.001064151683628175,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -636,13 +613,12 @@
         0.0378
       ],
       "p_instance": 4.929318977572661e-22,
-      "p_cluster": 0.0004511860434113338,
-      "p_cluster_holm": 0.0004511860434113338,
       "rank_biserial": 0.3834,
       "effect": "medium",
-      "significant": true,
       "arm_method": "bm25_path",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.0004511860434113338,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -662,13 +638,12 @@
         0.0345
       ],
       "p_instance": 0.03167366339108271,
-      "p_cluster": 0.115474887760127,
-      "p_cluster_holm": 0.115474887760127,
       "rank_biserial": 0.1912,
       "effect": "small",
-      "significant": false,
       "arm_method": "anchor_path_only",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.115474887760127,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -688,13 +663,12 @@
         0.0179
       ],
       "p_instance": 0.08168153394154003,
-      "p_cluster": 0.022894784183124593,
-      "p_cluster_holm": 0.022894784183124593,
       "rank_biserial": 0.2308,
       "effect": "small",
-      "significant": true,
       "arm_method": "anchor_path_only",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.022894784183124593,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -714,13 +688,12 @@
         0.0319
       ],
       "p_instance": 1.155002827352704e-09,
-      "p_cluster": 0.0010416317221027323,
-      "p_cluster_holm": 0.0010416317221027323,
       "rank_biserial": 0.2926,
       "effect": "small",
-      "significant": true,
       "arm_method": "anchor_path_only",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.0010416317221027323,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -740,13 +713,12 @@
         0.0264
       ],
       "p_instance": 2.286865023665894e-18,
-      "p_cluster": 0.001820891562935177,
-      "p_cluster_holm": 0.001820891562935177,
       "rank_biserial": 0.3421,
       "effect": "medium",
-      "significant": true,
       "arm_method": "anchor_path_only",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.001820891562935177,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -766,13 +738,12 @@
         0.0
       ],
       "p_instance": 0.5,
-      "p_cluster": 0.5,
-      "p_cluster_holm": 0.5,
       "rank_biserial": -1.0,
       "effect": "large",
-      "significant": false,
       "arm_method": "anchor_path_only",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.5,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -792,13 +763,12 @@
         0.0
       ],
       "p_instance": 1.0,
-      "p_cluster": 1.0,
-      "p_cluster_holm": 1.0,
       "rank_biserial": 0.0,
       "effect": "negligible",
-      "significant": false,
       "arm_method": "anchor_path_only",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 1.0,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -818,13 +788,12 @@
         0.002
       ],
       "p_instance": 0.7016370316880436,
-      "p_cluster": 0.6875,
-      "p_cluster_holm": 0.6875,
       "rank_biserial": -0.0695,
       "effect": "negligible",
-      "significant": false,
       "arm_method": "anchor_path_only",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.6875,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -844,13 +813,12 @@
         0.0019
       ],
       "p_instance": 0.139932779133967,
-      "p_cluster": 0.3125,
-      "p_cluster_holm": 0.3125,
       "rank_biserial": -0.2191,
       "effect": "small",
-      "significant": false,
       "arm_method": "anchor_path_only",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.3125,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -870,13 +838,12 @@
         0.0506
       ],
       "p_instance": 0.01933684821376654,
-      "p_cluster": 0.1069635671372697,
-      "p_cluster_holm": 0.1069635671372697,
       "rank_biserial": 0.209,
       "effect": "small",
-      "significant": false,
       "arm_method": "anchor_path_only",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.1069635671372697,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -896,13 +863,12 @@
         0.0259
       ],
       "p_instance": 0.08168153394154003,
-      "p_cluster": 0.022894784183124593,
-      "p_cluster_holm": 0.022894784183124593,
       "rank_biserial": 0.2308,
       "effect": "small",
-      "significant": true,
       "arm_method": "anchor_path_only",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.022894784183124593,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -922,13 +888,12 @@
         0.0452
       ],
       "p_instance": 1.7090478618140054e-09,
-      "p_cluster": 0.0013289690675303693,
-      "p_cluster_holm": 0.0013289690675303693,
       "rank_biserial": 0.3001,
       "effect": "medium",
-      "significant": true,
       "arm_method": "anchor_path_only",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.0013289690675303693,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -948,13 +913,12 @@
         0.0365
       ],
       "p_instance": 9.923104886552006e-19,
-      "p_cluster": 0.001991490682713644,
-      "p_cluster_holm": 0.001991490682713644,
       "rank_biserial": 0.3584,
       "effect": "medium",
-      "significant": true,
       "arm_method": "anchor_path_only",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.001991490682713644,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -974,13 +938,12 @@
         0.0431
       ],
       "p_instance": 0.0013073851234999883,
-      "p_cluster": 0.1427056819290319,
-      "p_cluster_holm": 0.1427056819290319,
       "rank_biserial": 0.2913,
       "effect": "small",
-      "significant": false,
       "arm_method": "anchor_symbol_only",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.1427056819290319,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1000,13 +963,12 @@
         0.0273
       ],
       "p_instance": 0.004903382516355935,
-      "p_cluster": 0.03634762045535737,
-      "p_cluster_holm": 0.03634762045535737,
       "rank_biserial": 0.3529,
       "effect": "medium",
-      "significant": true,
       "arm_method": "anchor_symbol_only",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.03634762045535737,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1026,13 +988,12 @@
         0.0388
       ],
       "p_instance": 1.4191247939939363e-08,
-      "p_cluster": 0.002606932524586362,
-      "p_cluster_holm": 0.002606932524586362,
       "rank_biserial": 0.2706,
       "effect": "small",
-      "significant": true,
       "arm_method": "anchor_symbol_only",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.002606932524586362,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1052,13 +1013,12 @@
         0.0312
       ],
       "p_instance": 1.0476976460291003e-15,
-      "p_cluster": 0.00042440527494354193,
-      "p_cluster_holm": 0.00042440527494354193,
       "rank_biserial": 0.3152,
       "effect": "medium",
-      "significant": true,
       "arm_method": "anchor_symbol_only",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.00042440527494354193,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1078,13 +1038,12 @@
         0.0105
       ],
       "p_instance": 0.5,
-      "p_cluster": 0.5,
-      "p_cluster_holm": 0.5,
       "rank_biserial": 1.0,
       "effect": "large",
-      "significant": false,
       "arm_method": "anchor_symbol_only",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.5,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1104,13 +1063,12 @@
         0.0
       ],
       "p_instance": 1.0,
-      "p_cluster": 1.0,
-      "p_cluster_holm": 1.0,
       "rank_biserial": 0.0,
       "effect": "negligible",
-      "significant": false,
       "arm_method": "anchor_symbol_only",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 1.0,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1130,13 +1088,12 @@
         0.0068
       ],
       "p_instance": 0.17415180657527196,
-      "p_cluster": 0.03125,
-      "p_cluster_holm": 0.03125,
       "rank_biserial": 0.3108,
       "effect": "medium",
-      "significant": true,
       "arm_method": "anchor_symbol_only",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.03125,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1156,13 +1113,12 @@
         0.0046
       ],
       "p_instance": 0.7905039864068941,
-      "p_cluster": 0.203125,
-      "p_cluster_holm": 0.203125,
       "rank_biserial": -0.0465,
       "effect": "negligible",
-      "significant": false,
       "arm_method": "anchor_symbol_only",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.203125,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1182,13 +1138,12 @@
         0.0589
       ],
       "p_instance": 0.002226488347320252,
-      "p_cluster": 0.1827965897615994,
-      "p_cluster_holm": 0.1827965897615994,
       "rank_biserial": 0.28,
       "effect": "small",
-      "significant": false,
       "arm_method": "anchor_symbol_only",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.1827965897615994,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1208,13 +1163,12 @@
         0.0394
       ],
       "p_instance": 0.004903382516355935,
-      "p_cluster": 0.03634762045535737,
-      "p_cluster_holm": 0.03634762045535737,
       "rank_biserial": 0.3529,
       "effect": "medium",
-      "significant": true,
       "arm_method": "anchor_symbol_only",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.03634762045535737,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1234,13 +1188,12 @@
         0.054
       ],
       "p_instance": 6.22228504764599e-08,
-      "p_cluster": 0.00919661530914462,
-      "p_cluster_holm": 0.00919661530914462,
       "rank_biserial": 0.2639,
       "effect": "small",
-      "significant": true,
       "arm_method": "anchor_symbol_only",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.00919661530914462,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1260,13 +1213,12 @@
         0.0442
       ],
       "p_instance": 4.666639706322034e-15,
-      "p_cluster": 0.0018105737934318376,
-      "p_cluster_holm": 0.0018105737934318376,
       "rank_biserial": 0.3159,
       "effect": "medium",
-      "significant": true,
       "arm_method": "anchor_symbol_only",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.0018105737934318376,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1286,13 +1238,12 @@
         0.0448
       ],
       "p_instance": 0.0004059744831388404,
-      "p_cluster": 0.3054511026740797,
-      "p_cluster_holm": 0.3054511026740797,
       "rank_biserial": 0.3007,
       "effect": "medium",
-      "significant": false,
       "arm_method": "bm25_anchor",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.3054511026740797,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1312,13 +1263,12 @@
         0.0272
       ],
       "p_instance": 0.005582667351023373,
-      "p_cluster": 0.04059969895860645,
-      "p_cluster_holm": 0.04059969895860645,
       "rank_biserial": 0.3429,
       "effect": "medium",
-      "significant": true,
       "arm_method": "bm25_anchor",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.04059969895860645,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1338,13 +1288,12 @@
         0.0405
       ],
       "p_instance": 2.8402237654323603e-09,
-      "p_cluster": 0.009235508361338237,
-      "p_cluster_holm": 0.009235508361338237,
       "rank_biserial": 0.2902,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_anchor",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.009235508361338237,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1364,13 +1313,12 @@
         0.0344
       ],
       "p_instance": 3.1757763834801123e-17,
-      "p_cluster": 0.0007652296479563801,
-      "p_cluster_holm": 0.0007652296479563801,
       "rank_biserial": 0.3352,
       "effect": "medium",
-      "significant": true,
       "arm_method": "bm25_anchor",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.0007652296479563801,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1390,13 +1338,12 @@
         0.0127
       ],
       "p_instance": 0.375,
-      "p_cluster": 1.0,
-      "p_cluster_holm": 1.0,
       "rank_biserial": 0.6,
       "effect": "large",
-      "significant": false,
       "arm_method": "bm25_anchor",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 1.0,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1416,13 +1363,12 @@
         0.0
       ],
       "p_instance": 1.0,
-      "p_cluster": 1.0,
-      "p_cluster_holm": 1.0,
       "rank_biserial": 0.0,
       "effect": "negligible",
-      "significant": false,
       "arm_method": "bm25_anchor",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 1.0,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1442,13 +1388,12 @@
         0.0072
       ],
       "p_instance": 0.13305614074308444,
-      "p_cluster": 0.1484375,
-      "p_cluster_holm": 0.1484375,
       "rank_biserial": 0.3307,
       "effect": "medium",
-      "significant": false,
       "arm_method": "bm25_anchor",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.1484375,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1468,13 +1413,12 @@
         0.0061
       ],
       "p_instance": 0.8199724753758479,
-      "p_cluster": 0.275390625,
-      "p_cluster_holm": 0.275390625,
       "rank_biserial": 0.0394,
       "effect": "negligible",
-      "significant": false,
       "arm_method": "bm25_anchor",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.275390625,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1494,13 +1438,12 @@
         0.0613
       ],
       "p_instance": 0.0008360058024357572,
-      "p_cluster": 0.3602347839027944,
-      "p_cluster_holm": 0.3602347839027944,
       "rank_biserial": 0.2899,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25_anchor",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.3602347839027944,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1520,13 +1463,12 @@
         0.0397
       ],
       "p_instance": 0.005582667351023373,
-      "p_cluster": 0.04059969895860645,
-      "p_cluster_holm": 0.04059969895860645,
       "rank_biserial": 0.3429,
       "effect": "medium",
-      "significant": true,
       "arm_method": "bm25_anchor",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.04059969895860645,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1546,13 +1488,12 @@
         0.0557
       ],
       "p_instance": 1.5657425778627763e-08,
-      "p_cluster": 0.025562158269807785,
-      "p_cluster_holm": 0.025562158269807785,
       "rank_biserial": 0.2831,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_anchor",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.025562158269807785,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1572,13 +1513,12 @@
         0.0483
       ],
       "p_instance": 2.3248978135253436e-16,
-      "p_cluster": 0.001997736675636198,
-      "p_cluster_holm": 0.001997736675636198,
       "rank_biserial": 0.3346,
       "effect": "medium",
-      "significant": true,
       "arm_method": "bm25_anchor",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.001997736675636198,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1598,13 +1538,12 @@
         0.0247
       ],
       "p_instance": 0.23908881247691507,
-      "p_cluster": 0.11280575878766139,
-      "p_cluster_holm": 0.11280575878766139,
       "rank_biserial": 0.1148,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25_graph",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.11280575878766139,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1624,13 +1563,12 @@
         0.0213
       ],
       "p_instance": 0.20664710898494285,
-      "p_cluster": 0.1240786048035536,
-      "p_cluster_holm": 0.1240786048035536,
       "rank_biserial": 0.122,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25_graph",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.1240786048035536,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1650,13 +1588,12 @@
         0.0174
       ],
       "p_instance": 0.004556302028566403,
-      "p_cluster": 0.07737462145560713,
-      "p_cluster_holm": 0.07737462145560713,
       "rank_biserial": 0.1144,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25_graph",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.07737462145560713,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1676,13 +1613,12 @@
         0.0125
       ],
       "p_instance": 5.282999237744336e-05,
-      "p_cluster": 0.05093409696719858,
-      "p_cluster_holm": 0.05093409696719858,
       "rank_biserial": 0.1425,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25_graph",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.05093409696719858,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1702,13 +1638,12 @@
         -0.0036
       ],
       "p_instance": 0.0390625,
-      "p_cluster": 0.125,
-      "p_cluster_holm": 0.125,
       "rank_biserial": -0.7778,
       "effect": "large",
-      "significant": false,
       "arm_method": "bm25_graph",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.125,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1728,13 +1663,12 @@
         0.0137
       ],
       "p_instance": 0.6875,
-      "p_cluster": 0.875,
-      "p_cluster_holm": 0.875,
       "rank_biserial": -0.3333,
       "effect": "medium",
-      "significant": false,
       "arm_method": "bm25_graph",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.875,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1754,13 +1688,12 @@
         -0.0045
       ],
       "p_instance": 0.030726692362885215,
-      "p_cluster": 0.0322265625,
-      "p_cluster_holm": 0.0322265625,
       "rank_biserial": -0.2553,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_graph",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.0322265625,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1780,13 +1713,12 @@
         -0.0042
       ],
       "p_instance": 0.007047957732825031,
-      "p_cluster": 0.0185546875,
-      "p_cluster_holm": 0.0185546875,
       "rank_biserial": -0.2895,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_graph",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.0185546875,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1806,13 +1738,12 @@
         0.0362
       ],
       "p_instance": 0.05943072721456759,
-      "p_cluster": 0.014960371646702011,
-      "p_cluster_holm": 0.014960371646702011,
       "rank_biserial": 0.1858,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_graph",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.014960371646702011,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1832,13 +1763,12 @@
         0.0308
       ],
       "p_instance": 0.13875316894302567,
-      "p_cluster": 0.1360235381961582,
-      "p_cluster_holm": 0.1360235381961582,
       "rank_biserial": 0.1453,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25_graph",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.1360235381961582,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1858,13 +1788,12 @@
         0.0275
       ],
       "p_instance": 0.0004770915702898777,
-      "p_cluster": 0.012614151078504754,
-      "p_cluster_holm": 0.012614151078504754,
       "rank_biserial": 0.1498,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_graph",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.012614151078504754,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1884,13 +1813,12 @@
         0.0202
       ],
       "p_instance": 9.006971252858835e-07,
-      "p_cluster": 0.006059315021914234,
-      "p_cluster_holm": 0.006059315021914234,
       "rank_biserial": 0.1832,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_graph",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.006059315021914234,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1910,13 +1838,12 @@
         0.0276
       ],
       "p_instance": 0.06170860823922418,
-      "p_cluster": 0.06529881362243505,
-      "p_cluster_holm": 0.06529881362243505,
       "rank_biserial": 0.1826,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25_anchor_graph",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.06529881362243505,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -1936,13 +1863,12 @@
         0.0323
       ],
       "p_instance": 0.002238345717908801,
-      "p_cluster": 0.003331368225356535,
-      "p_cluster_holm": 0.003331368225356535,
       "rank_biserial": 0.2973,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_anchor_graph",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.003331368225356535,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1962,13 +1888,12 @@
         0.0294
       ],
       "p_instance": 1.0316833859146323e-05,
-      "p_cluster": 0.003034424681192018,
-      "p_cluster_holm": 0.003034424681192018,
       "rank_biserial": 0.1998,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_anchor_graph",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.003034424681192018,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -1988,13 +1913,12 @@
         0.0227
       ],
       "p_instance": 1.9799934824627666e-08,
-      "p_cluster": 0.003288235854431889,
-      "p_cluster_holm": 0.003288235854431889,
       "rank_biserial": 0.2123,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_anchor_graph",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.003288235854431889,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -2014,13 +1938,12 @@
         0.005
       ],
       "p_instance": 1.0,
-      "p_cluster": 0.5,
-      "p_cluster_holm": 0.5,
       "rank_biserial": -0.2,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25_anchor_graph",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.5,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -2040,13 +1963,12 @@
         0.0156
       ],
       "p_instance": 1.0,
-      "p_cluster": 0.5,
-      "p_cluster_holm": 0.5,
       "rank_biserial": 0.3333,
       "effect": "medium",
-      "significant": false,
       "arm_method": "bm25_anchor_graph",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.5,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -2066,13 +1988,12 @@
         0.0034
       ],
       "p_instance": 0.37740351412659756,
-      "p_cluster": 0.8125,
-      "p_cluster_holm": 0.8125,
       "rank_biserial": 0.138,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25_anchor_graph",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.8125,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -2092,13 +2013,12 @@
         0.0031
       ],
       "p_instance": 0.2725905524478335,
-      "p_cluster": 0.5703125,
-      "p_cluster_holm": 0.5703125,
       "rank_biserial": 0.1488,
       "effect": "small",
-      "significant": false,
       "arm_method": "bm25_anchor_graph",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.5703125,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -2118,13 +2038,12 @@
         0.0383
       ],
       "p_instance": 0.04476209415697361,
-      "p_cluster": 0.04243417471252065,
-      "p_cluster_holm": 0.04243417471252065,
       "rank_biserial": 0.2,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_anchor_graph",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.04243417471252065,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -2144,13 +2063,12 @@
         0.0441
       ],
       "p_instance": 0.0026846980412799162,
-      "p_cluster": 0.006066036729416831,
-      "p_cluster_holm": 0.006066036729416831,
       "rank_biserial": 0.2963,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_anchor_graph",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.006066036729416831,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -2170,13 +2088,12 @@
         0.0399
       ],
       "p_instance": 1.6310501667492563e-05,
-      "p_cluster": 0.001933693014246206,
-      "p_cluster_holm": 0.001933693014246206,
       "rank_biserial": 0.2039,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_anchor_graph",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.001933693014246206,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -2196,13 +2113,12 @@
         0.0315
       ],
       "p_instance": 4.2631248595207246e-08,
-      "p_cluster": 0.001340366633964385,
-      "p_cluster_holm": 0.001340366633964385,
       "rank_biserial": 0.2157,
       "effect": "small",
-      "significant": true,
       "arm_method": "bm25_anchor_graph",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.001340366633964385,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -2222,13 +2138,12 @@
         0.0375
       ],
       "p_instance": 0.02119954969233919,
-      "p_cluster": 0.20122181638043513,
-      "p_cluster_holm": 0.20122181638043513,
       "rank_biserial": 0.2029,
       "effect": "small",
-      "significant": false,
       "arm_method": "anchor_path_graph",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.20122181638043513,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -2248,13 +2163,12 @@
         0.0191
       ],
       "p_instance": 0.2630539575429353,
-      "p_cluster": 0.24876002855983947,
-      "p_cluster_holm": 0.24876002855983947,
       "rank_biserial": 0.113,
       "effect": "small",
-      "significant": false,
       "arm_method": "anchor_path_graph",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.24876002855983947,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -2274,13 +2188,12 @@
         0.0274
       ],
       "p_instance": 0.00027466686703047396,
-      "p_cluster": 0.16304636856443988,
-      "p_cluster_holm": 0.16304636856443988,
       "rank_biserial": 0.1536,
       "effect": "small",
-      "significant": false,
       "arm_method": "anchor_path_graph",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.16304636856443988,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -2300,13 +2213,12 @@
         0.0204
       ],
       "p_instance": 2.6293089496132273e-07,
-      "p_cluster": 0.0989981369002151,
-      "p_cluster_holm": 0.0989981369002151,
       "rank_biserial": 0.1866,
       "effect": "small",
-      "significant": false,
       "arm_method": "anchor_path_graph",
-      "stratum": "all"
+      "stratum": "all",
+      "p_cluster_raw": 0.0989981369002151,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -2326,13 +2238,12 @@
         -0.0036
       ],
       "p_instance": 0.0390625,
-      "p_cluster": 0.125,
-      "p_cluster_holm": 0.125,
       "rank_biserial": -0.7778,
       "effect": "large",
-      "significant": false,
       "arm_method": "anchor_path_graph",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.125,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -2352,13 +2263,12 @@
         0.0075
       ],
       "p_instance": 0.625,
-      "p_cluster": 0.75,
-      "p_cluster_holm": 0.75,
       "rank_biserial": -0.5,
       "effect": "large",
-      "significant": false,
       "arm_method": "anchor_path_graph",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.75,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -2378,13 +2288,12 @@
         -0.0045
       ],
       "p_instance": 0.03395887874488965,
-      "p_cluster": 0.01953125,
-      "p_cluster_holm": 0.01953125,
       "rank_biserial": -0.2679,
       "effect": "small",
-      "significant": true,
       "arm_method": "anchor_path_graph",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.01953125,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -2404,13 +2313,12 @@
         -0.0041
       ],
       "p_instance": 0.007296074636509085,
-      "p_cluster": 0.009765625,
-      "p_cluster_holm": 0.009765625,
       "rank_biserial": -0.3045,
       "effect": "medium",
-      "significant": true,
       "arm_method": "anchor_path_graph",
-      "stratum": "python"
+      "stratum": "python",
+      "p_cluster_raw": 0.009765625,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -2430,13 +2338,12 @@
         0.0503
       ],
       "p_instance": 0.002618326772195643,
-      "p_cluster": 0.04565545422004829,
-      "p_cluster_holm": 0.04565545422004829,
       "rank_biserial": 0.2713,
       "effect": "small",
-      "significant": true,
       "arm_method": "anchor_path_graph",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.04565545422004829,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -2456,13 +2363,12 @@
         0.0279
       ],
       "p_instance": 0.18365717190177477,
-      "p_cluster": 0.21913846329838116,
-      "p_cluster_holm": 0.21913846329838116,
       "rank_biserial": 0.1351,
       "effect": "small",
-      "significant": false,
       "arm_method": "anchor_path_graph",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.21913846329838116,
+      "significant_raw_p05": false
     },
     {
       "group": null,
@@ -2482,13 +2388,12 @@
         0.0393
       ],
       "p_instance": 2.1795356616594484e-05,
-      "p_cluster": 0.034833928669701524,
-      "p_cluster_holm": 0.034833928669701524,
       "rank_biserial": 0.1901,
       "effect": "small",
-      "significant": true,
       "arm_method": "anchor_path_graph",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.034833928669701524,
+      "significant_raw_p05": true
     },
     {
       "group": null,
@@ -2508,13 +2413,12 @@
         0.0295
       ],
       "p_instance": 2.5382084816047853e-09,
-      "p_cluster": 0.01741349057785314,
-      "p_cluster_holm": 0.01741349057785314,
       "rank_biserial": 0.2279,
       "effect": "small",
-      "significant": true,
       "arm_method": "anchor_path_graph",
-      "stratum": "non_python"
+      "stratum": "non_python",
+      "p_cluster_raw": 0.01741349057785314,
+      "significant_raw_p05": true
     }
   ],
   "bm25_hit1_by_language": [
@@ -2537,11 +2441,10 @@
         0.1176
       ],
       "p_instance": 0.210113525390625,
-      "p_cluster": 0.25,
-      "p_cluster_holm": 0.25,
       "rank_biserial": 0.375,
       "effect": "medium",
-      "significant": false
+      "p_cluster_raw": 0.25,
+      "significant_raw_p05": false
     },
     {
       "lang": "cpp",
@@ -2562,11 +2465,10 @@
         0.0748
       ],
       "p_instance": 0.0654296875,
-      "p_cluster": 0.125,
-      "p_cluster_holm": 0.125,
       "rank_biserial": 0.6364,
       "effect": "large",
-      "significant": false
+      "p_cluster_raw": 0.125,
+      "significant_raw_p05": false
     },
     {
       "lang": "go",
@@ -2587,11 +2489,10 @@
         0.0151
       ],
       "p_instance": 0.6654658120766188,
-      "p_cluster": 1.0,
-      "p_cluster_holm": 1.0,
       "rank_biserial": 0.0833,
       "effect": "negligible",
-      "significant": false
+      "p_cluster_raw": 1.0,
+      "significant_raw_p05": false
     },
     {
       "lang": "java",
@@ -2612,11 +2513,10 @@
         0.1532
       ],
       "p_instance": 0.01171875,
-      "p_cluster": 0.375,
-      "p_cluster_holm": 0.375,
       "rank_biserial": 0.8182,
       "effect": "large",
-      "significant": false
+      "p_cluster_raw": 0.375,
+      "significant_raw_p05": false
     },
     {
       "lang": "js",
@@ -2637,11 +2537,10 @@
         0.017
       ],
       "p_instance": 1.0,
-      "p_cluster": 1.0,
-      "p_cluster_holm": 1.0,
       "rank_biserial": 0.2,
       "effect": "small",
-      "significant": false
+      "p_cluster_raw": 1.0,
+      "significant_raw_p05": false
     },
     {
       "lang": "kotlin",
@@ -2662,11 +2561,10 @@
         0.1207
       ],
       "p_instance": 0.332305908203125,
-      "p_cluster": 0.625,
-      "p_cluster_holm": 0.625,
       "rank_biserial": -0.2941,
       "effect": "small",
-      "significant": false
+      "p_cluster_raw": 0.625,
+      "significant_raw_p05": false
     },
     {
       "lang": "python",
@@ -2687,11 +2585,10 @@
         0.0
       ],
       "p_instance": 0.5,
-      "p_cluster": 0.5,
-      "p_cluster_holm": 0.5,
       "rank_biserial": -1.0,
       "effect": "large",
-      "significant": false
+      "p_cluster_raw": 0.5,
+      "significant_raw_p05": false
     },
     {
       "lang": "rust",
@@ -2712,11 +2609,10 @@
         0.0792
       ],
       "p_instance": 0.6636238098144531,
-      "p_cluster": 0.6875,
-      "p_cluster_holm": 0.6875,
       "rank_biserial": 0.1429,
       "effect": "small",
-      "significant": false
+      "p_cluster_raw": 0.6875,
+      "significant_raw_p05": false
     },
     {
       "lang": "ts",
@@ -2737,11 +2633,10 @@
         0.0625
       ],
       "p_instance": 0.25,
-      "p_cluster": 1.0,
-      "p_cluster_holm": 1.0,
       "rank_biserial": 1.0,
       "effect": "large",
-      "significant": false
+      "p_cluster_raw": 1.0,
+      "significant_raw_p05": false
     }
   ]
 }

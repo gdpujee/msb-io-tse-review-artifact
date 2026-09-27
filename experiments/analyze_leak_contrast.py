@@ -170,6 +170,24 @@ def main() -> None:
         item = compare_methods(sub, "hit@1", "control", ["treatment"])[0]
         per_language.append({"lang": lang, **item})
 
+    def raw_p_value_rows(items: list[dict]) -> list[dict]:
+        """Export the unadjusted repository p-value with an explicit name.
+
+        Each call above compares exactly one treatment with its control, so the
+        helper's within-call Holm value equals the raw value. The four
+        confirmatory endpoint correction is computed and reported separately.
+        """
+        exported = []
+        for item in items:
+            row = dict(item)
+            raw_p = row.pop("p_cluster")
+            row.pop("p_cluster_holm", None)
+            row.pop("significant", None)
+            row["p_cluster_raw"] = raw_p
+            row["significant_raw_p05"] = raw_p < 0.05
+            exported.append(row)
+        return exported
+
     # ---- render -----------------------------------------------------------
     lines = ["# What the leaked query is worth (RQ6)", "",
              "Treatment = the superseded query rule, control = the released issue-only",
@@ -182,7 +200,7 @@ def main() -> None:
             continue
         lines += [f"## {method}", "",
                   "| stratum | metric | n | control | treatment | delta | "
-                  "repository-cluster 95% CI | p_repo_Holm | rank-biserial |",
+                  "repository-cluster 95% CI | raw p_repo | rank-biserial |",
                   "|---|---|---:|---:|---:|---:|---|---:|---:|"]
         for stratum in ("all", "python", "non_python"):
             for item in rows_here:
@@ -192,16 +210,16 @@ def main() -> None:
                     f"| {stratum} | {item['metric']} | {item['n_paired']} | "
                     f"{item['mean_ref']:.4f} | {item['mean_method']:.4f} | "
                     f"{item['delta']:+.4f} | {item['delta_cluster_bootstrap_95ci']} | "
-                    f"{item['p_cluster_holm']:.6g} | {item['rank_biserial']:+.4f} |")
+                    f"{item['p_cluster']:.6g} | {item['rank_biserial']:+.4f} |")
         lines.append("")
     lines += ["## bm25 Hit@1 by language", "",
-              "| language | n | control | treatment | delta | CI | p_repo_Holm |",
+              "| language | n | control | treatment | delta | CI | raw p_repo |",
               "|---|---:|---:|---:|---:|---|---:|"]
     for item in per_language:
         lines.append(
             f"| {item['lang']} | {item['n_paired']} | {item['mean_ref']:.4f} | "
             f"{item['mean_method']:.4f} | {item['delta']:+.4f} | "
-            f"{item['delta_cluster_bootstrap_95ci']} | {item['p_cluster_holm']:.6g} |")
+            f"{item['delta_cluster_bootstrap_95ci']} | {item['p_cluster']:.6g} |")
     lines.append("")
 
     OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
@@ -217,8 +235,8 @@ def main() -> None:
             "non_python_instances": nonpy_total,
             "non_python_treatment_contains_pr_title": nonpy_pr_text,
         },
-        "comparisons": results,
-        "bm25_hit1_by_language": per_language,
+        "comparisons": raw_p_value_rows(results),
+        "bm25_hit1_by_language": raw_p_value_rows(per_language),
     }, indent=2) + "\n")
     print(OUT)
     for item in per_language:
